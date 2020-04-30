@@ -10,8 +10,8 @@ const Homepage = () =>  {
       <div>
           <h1 className={styles.h1}>Hello</h1>
           <ul>
-            <Link to="/aboutme">About Me</Link>
-            <Link to="/Projects">Projects</Link>
+            <Link to={process.env.PUBLIC_URL + "/aboutme"}>About Me</Link>
+            <Link to={process.env.PUBLIC_URL + "/projects"}>Projects</Link>
           </ul>
       </div>
     );

@@ -14,10 +14,10 @@ ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <Switch>
-        <Route exact path = "/" component = {Homepage}/>
-        <Route path = "/aboutme" component = {AboutMe}/>
-        <Route path = "/Projects" component = {Projects}/>
-        <Redirect to="/" />
+        <Route exact path = {process.env.PUBLIC_URL + "/"} component = {Homepage}/>
+        <Route path = {process.env.PUBLIC_URL + "/aboutme"} component = {AboutMe}/>
+        <Route path = {process.env.PUBLIC_URL + "/Projects"} component = {Projects}/>
+        <Redirect to= {process.env.PUBLIC_URL + "/"} />
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,
