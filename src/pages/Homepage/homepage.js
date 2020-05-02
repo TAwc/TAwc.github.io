@@ -15,8 +15,3 @@ const Homepage = () =>  {
 
 export default Homepage;
 
-
-/*<ul>
-            <Link to={process.env.PUBLIC_URL + "/aboutme"}>About Me</Link>
-            <Link to={process.env.PUBLIC_URL + "/projects"}>Projects</Link>
-          </ul>*/

@@ -3,13 +3,22 @@ import styles from './navbar.module.css'
 import { Link, withRouter } from 'react-router-dom';
 
 
-const Navbar = (props) =>  {
 
-    const page_values = [{text : "Home", path: "/"},
+
+
+
+const Navbar = () =>  {
+    const [varible, setVaraible] = useState(true)
+    const changeState = () => {setVaraible(!varible)}
+
+
+    const page_values = [{text : "Home", path: ""},
                         {text : "About Me", path: "/aboutme"},
                         {text : "Projects", path: "/projects"},]
 
     let path = window.location.href.substr((window.location.href.indexOf("/website"))+8)
+
+    //useEffect(({}),[varible])
 
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -26,7 +35,7 @@ const Navbar = (props) =>  {
                           def_className = "nav-link active"
                   }
                 return (<li className = "nav-item" key = {page.path}> 
-                          <Link to={process.env.PUBLIC_URL + page.path} className={def_className} >{page.text}</Link>
+                          <Link to={process.env.PUBLIC_URL + page.path} className={def_className} onClick={changeState}>{page.text}</Link>
                       </li>)
               })}
           </ul>
