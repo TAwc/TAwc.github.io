@@ -13,10 +13,13 @@ import Homepage from './pages/Homepage/homepage'
 import AboutMe from './pages/AboutMe/aboutme'
 import Projects from './pages/Projects/projects'
 
+
+import Example from './components/Navbar/newNav'
+
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Navbar/>
+      <Example/>
       <Switch>
         <Route exact path = {process.env.PUBLIC_URL + ""} component = {Homepage}/>
         <Route path = {process.env.PUBLIC_URL + "/aboutme"} component = {AboutMe}/>

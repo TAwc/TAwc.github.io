@@ -1,0 +1,27 @@
+.container{
+    position: sticky;
+    width: 100%;
+    top: 0px;
+}
+
+.navbar{
+    background-color: var(--Main-light-gray) !important;
+}
+
+
+.brand{
+    color: var(--Main-white) !important;
+}
+
+.brand{
+    color: var(--Main-white) !important;
+}
+
+.link{
+    color: var(--Main-white) !important;
+}
+
+
+.link:hover{
+    color: var(--Main-dark-gray) !important;
+}

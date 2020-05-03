@@ -1,3 +1,57 @@
-.h1{
-    font-size: 100px;
+.container{
+    position: absolute;
+    width: 100%;
+    top: 0px;
+}
+
+
+.navbar{
+    background-color: var(--Main-light-gray);
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: .5rem 1rem;
+}
+
+
+.navbar_brand{
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+}
+
+@media (min-width: 992px){
+    .navbar{
+        /*expanded*/
+        flex-flow: row nowrap;
+        justify-content: flex-start;
+    } 
+
+
+    .navbar .navbar-collapse {
+        display: flex!important;
+        flex-basis: auto;
+    }
+
+}
+
+
+.navbar a{
+    color: var(--Main-white);
+    display: inline block;
+}
+
+.navbar a:hover{
+    color: var(--Main-dark-gray);
+}
+
+
+.active{
+    color: var(--Main-blue) !important;
 }
