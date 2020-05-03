@@ -1,6 +1,6 @@
 .main{
     width: 100%;
-    height: 4000px;
-    background-color: blue; /* var(--Main-white);*/
+    height: 500px;
+    background-color: var(--Main-white);
     margin-top: 100vh;
 }

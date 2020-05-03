@@ -7,4 +7,3 @@ react
 react-dom
 react-router-dom
 booststrap/reactstrap
-scroll-data-hook

@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import styles from './newbar.module.css';
 import {
   Collapse,
@@ -8,9 +8,9 @@ import {
   Nav,
   NavItem,
   NavLink,
-  NavbarText
 } from 'reactstrap';
 import {Link} from 'react-router-dom'
+import useEffect from '../useEvent'
 
 
 
@@ -23,19 +23,35 @@ const Example = (props) => {
 
     const [barshow, setShow] = useState(true)
 
-    window.addEventListener('scroll',function(e) {
-        if (this.window.scrollY > 30 && barshow != false){
-            setShow(false)
-        }else{
-            setShow(true)
+
+
+    // https://www.onlywebpro.com/2017/03/25/optimize-scrolling-performance-by-debouncing-scroll-event-calls/
+    var debounce_timer;
+    const scrollHandeler = function() {
+        if(debounce_timer) {
+            window.clearTimeout(debounce_timer);
         }
-    })
+        debounce_timer = window.setTimeout(function() {
+
+            //Mine
+            if (this.window.scrollY > 30 && barshow !== false){
+                setShow(false)
+            }else{
+                setShow(true)
+            }
+            //not Mine
+
+        }, 100);
+    }
+
+    useEffect('scroll', scrollHandeler, true)
+    
+
 
     const page_values = [{text : "Home", path: ""},
                         {text : "About Me", path: "/aboutme"},
                         {text : "Projects", path: "/projects"},]
 
-    let path = window.location.href.substr((window.location.href.indexOf("/website"))+8)
 
     return (
         <span>
@@ -54,7 +70,7 @@ const Example = (props) => {
                             })
                         }
                     </Nav>
-                <NavbarText>Filler</NavbarText>
+                <NavLink className = {styles.git} href="https://github.com/TAwc/website">Github</NavLink>
                 </Collapse>
             </Navbar>
             </div>
