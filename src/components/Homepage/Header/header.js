@@ -55,7 +55,7 @@ const Header = () =>  {
                   size === "large" ? 
                   (
                     <Row>
-                      <Col sm ="1" noGutters>
+                      <Col sm ="1">
                       {/* Links */}
                       <ul className = {styles.linkbar}>
                         {

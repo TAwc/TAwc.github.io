@@ -5,6 +5,7 @@ import React from 'react';
 
 import Header from "../../components/Homepage/Header/header"
 import Summary from "../../components/Homepage/Summary/summary"
+import Techs from "../../components/Homepage/Tech Background/techs"
 
 const Homepage = () =>  {
 
@@ -12,6 +13,7 @@ const Homepage = () =>  {
       <span>
         <Header/>
         <Summary/>
+        <Techs/>
       </span>
     );
 }
