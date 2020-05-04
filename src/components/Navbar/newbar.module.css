@@ -7,24 +7,20 @@
 
 .navbarNorm{
     background-color: var(--Main-light-gray) !important;
-    height: 56px;
-    transition: 0.2s;
 }
+
+
 
 .brand{
     color: var(--Main-white) !important;
     padding-left: 20vw;
 }
 
-@media only screen and (max-width: 767px){
-    .brand{
-        padding-left: 0px;
-    }
-}
+
 
 .link{
     color: var(--Main-white) !important;
-    margin-left: 2vw; /* chaneg to closer when moving down */
+    margin-left: 2vw;
 }
 
 .link:hover{
@@ -42,12 +38,36 @@
 }
 
 
-/*-----------When not at top -------------*/
 
 
-.navbarTop{
-    background-color: transparent !important;
-    height: 90px;
-    transition: height 0.2s;
+@media only screen and (max-width: 767px){
+    .brand{
+        padding-left: 0px;
+    }
 }
+
+
+
+/*-----------When not at top -------------*/
+.navbarTop{
+    background-color: var(--Main-light-gray) !important;
+}
+
+@media only screen and (min-width: 769px){
+    .navbarTop{
+        background-color: transparent !important;
+        height: 90px;
+        transition: height 0.2s;
+    }
+
+
+    .navbarNorm{
+        background-color: var(--Main-light-gray) !important;
+        height: 56px;
+        transition: 0.2s;
+    }
+    
+}
+
+
 

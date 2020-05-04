@@ -57,26 +57,28 @@ const Example = (props) => {
     return (
         <span>
             {
-                barshow === false ? 
-                (<div className={styles.container}>
-                    <Navbar className={styles.navbarTop} color="dark" dark expand="md">
-                        <NavbarBrand className={styles.brand} href={process.env.PUBLIC_URL}>Alexnader Waters</NavbarBrand>
-                        <NavbarToggler onClick={toggle} />
-                        <Collapse isOpen={isOpen} navbar>
-                            <Nav className="mr-auto" navbar>
-                                {
-                                    page_values.map((page) => {
-                                        return (<NavItem key = {page.path}> 
-                                                    <NavLink tag={Link} to={process.env.PUBLIC_URL + page.path} onClick={changeState} className={styles.link}>{page.text}</NavLink>
-                                                </NavItem>
-                                        )
-                                    })
-                                }
-                            </Nav>
-                        <NavLink className = {styles.git} href="https://github.com/TAwc/website">Contact</NavLink> {/*Update to contact page*/}
-                        </Collapse>
-                    </Navbar>
-                </div>)
+                (barshow === false)? 
+                (
+                    <div className={styles.container}>
+                        <Navbar className={styles.navbarTop} color="dark" dark expand="md">
+                            <NavbarBrand className={styles.brand} href={process.env.PUBLIC_URL}>Alexnader Waters</NavbarBrand>
+                            <NavbarToggler onClick={toggle} />
+                            <Collapse isOpen={isOpen} navbar>
+                                <Nav className="mr-auto" navbar>
+                                    {
+                                        page_values.map((page) => {
+                                            return (<NavItem key = {page.path}> 
+                                                        <NavLink tag={Link} to={process.env.PUBLIC_URL + page.path} onClick={changeState} className={styles.link}>{page.text}</NavLink>
+                                                    </NavItem>
+                                            )
+                                        })
+                                    }
+                                </Nav>
+                            <NavLink className = {styles.git} href="https://github.com/TAwc/website">Contact</NavLink> {/*Update to contact page*/}
+                            </Collapse>
+                        </Navbar>
+                    </div>
+                )
 
 
                 :
