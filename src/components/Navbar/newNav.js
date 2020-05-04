@@ -36,13 +36,11 @@ const Example = (props) => {
             //Mine
             if (this.window.scrollY === 0 && barshow ){
                 setShow(false)
-                console.log("setting false")
                 
             }else if (this.window.scrollY !== 0 && !barshow){
                 setShow(true)
-                console.log("setting true")
             }
-            console.log(window.scrollY)
+
             //not Mine
 
         }, 150);

@@ -2,12 +2,13 @@
     position: fixed;
     width: 100%;
     top: 0px;
+    z-index: 1;
 }
 
 .navbarNorm{
     background-color: var(--Main-light-gray) !important;
     height: 56px;
-    transition: 0.5s;
+    transition: 0.2s;
 }
 
 .brand{
@@ -47,6 +48,6 @@
 .navbarTop{
     background-color: transparent !important;
     height: 90px;
-    transition: height 1s;
+    transition: height 0.2s;
 }
 
