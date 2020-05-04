@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.ce3710fd.chunk.css",
-    "main.js": "/website/static/js/main.f0f45f45.chunk.js",
-    "main.js.map": "/website/static/js/main.f0f45f45.chunk.js.map",
+    "main.css": "/website/static/css/main.715ff283.chunk.css",
+    "main.js": "/website/static/js/main.e9431deb.chunk.js",
+    "main.js.map": "/website/static/js/main.e9431deb.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.e06ec2de.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.e06ec2de.js.map",
     "static/css/2.69121389.chunk.css": "/website/static/css/2.69121389.chunk.css",
-    "static/js/2.b6dad4c9.chunk.js": "/website/static/js/2.b6dad4c9.chunk.js",
-    "static/js/2.b6dad4c9.chunk.js.map": "/website/static/js/2.b6dad4c9.chunk.js.map",
+    "static/js/2.25b7d375.chunk.js": "/website/static/js/2.25b7d375.chunk.js",
+    "static/js/2.25b7d375.chunk.js.map": "/website/static/js/2.25b7d375.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.0ff49c372edaee8a4146f3f863ddfc33.js": "/website/precache-manifest.0ff49c372edaee8a4146f3f863ddfc33.js",
+    "precache-manifest.6d25348c7c17c4cd4db5ea66186de26d.js": "/website/precache-manifest.6d25348c7c17c4cd4db5ea66186de26d.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/website/static/css/2.69121389.chunk.css.map",
-    "static/css/main.ce3710fd.chunk.css.map": "/website/static/css/main.ce3710fd.chunk.css.map",
-    "static/js/2.b6dad4c9.chunk.js.LICENSE.txt": "/website/static/js/2.b6dad4c9.chunk.js.LICENSE.txt",
+    "static/css/main.715ff283.chunk.css.map": "/website/static/css/main.715ff283.chunk.css.map",
+    "static/js/2.25b7d375.chunk.js.LICENSE.txt": "/website/static/js/2.25b7d375.chunk.js.LICENSE.txt",
     "static/media/header.module.css": "/website/static/media/Alex_pic.f01a3bf2.png",
+    "static/media/Headshot(edit) 5-4-2020.jpg": "/website/static/media/Headshot(edit) 5-4-2020.27083a2a.jpg",
     "static/media/ReadMoreArrow.png": "/website/static/media/ReadMoreArrow.44f28ff5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e06ec2de.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.b6dad4c9.chunk.js",
-    "static/css/main.ce3710fd.chunk.css",
-    "static/js/main.f0f45f45.chunk.js"
+    "static/js/2.25b7d375.chunk.js",
+    "static/css/main.715ff283.chunk.css",
+    "static/js/main.e9431deb.chunk.js"
   ]
 }
