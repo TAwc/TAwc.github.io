@@ -76,7 +76,7 @@ const Header = () =>  {
                       <Col lg = "6">                
                         <h1 className = {styles.name}>Alexander Waters</h1>
                         <ColoredLine color="white"/> {/*update to correct color*/}
-                        <h2 className = {styles.description}>A Technical Psycho</h2>
+                        <h2 className = {styles.description}>A Technical Style</h2>
                       </Col>
 
                       <Col sm='3'>
@@ -95,7 +95,7 @@ const Header = () =>  {
                       <Col lg = "6">                
                         <h1 className = {styles.name}>Alexander Waters</h1>
                         <ColoredLine color="white"/> {/*update to correct color*/}
-                        <h2 className = {styles.description}>A Technical Psycho</h2>
+                        <h2 className = {styles.description}>A Technical Style</h2>
                       </Col>
 
                       <Col lg='6'>

@@ -23,7 +23,7 @@ const Header = () =>  {
                 <Row>
                   <Col sm={1}>
                   </Col>
-                  <Col lg={5} className={styles.headshotCol}>
+                  <Col lg={4} className={styles.headshotCol}>
                     <img src={headshot} className={styles.headshotImg} alt="photo of me"/>
                   </Col>
                   <Col lg={5}>
