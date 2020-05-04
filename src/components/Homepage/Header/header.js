@@ -60,7 +60,7 @@ const Header = () =>  {
                       <ul className = {styles.linkbar}>
                         {
                             linkData.map((link) =>{
-                              return (<li key={link.text}><a href={link.link}>
+                              return (<li key={link.text}><a href={link.link} target="_blank">
                                         <img src={link.img} className = {styles.SideImgLink} alt ={link.text}/>
                                       </a>
                                       </li>)
@@ -105,7 +105,7 @@ const Header = () =>  {
                           {
                             linkData.map((link) =>{
                               return (<Col xs="2" className={styles.imageLinkHolder} key={link.link}>                  
-                                        <a href={link.link} className={styles.ImgLink}>
+                                        <a href={link.link} className={styles.ImgLink} target="_blank">
                                           <img src={link.img} className = {styles.BotImgLink} alt ={link.text}/>
                                         </a>
                                       </Col>)
