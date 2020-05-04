@@ -4,17 +4,26 @@
     top: 0px;
 }
 
-.navbar{
+.navbarNorm{
     background-color: var(--Main-light-gray) !important;
+    height: 56px;
+    transition: 0.5s;
 }
 
 .brand{
     color: var(--Main-white) !important;
+    padding-left: 20vw;
 }
 
+@media only screen and (max-width: 767px){
+    .brand{
+        padding-left: 0px;
+    }
+}
 
 .link{
     color: var(--Main-white) !important;
+    margin-left: 2vw; /* chaneg to closer when moving down */
 }
 
 .link:hover{
@@ -24,8 +33,20 @@
 
 .git{
     color: var(--Main-white) !important;
+    margin-right: 20vw;
 }
 
 .git:hover{
     color: var(--Main-blue) !important;
 }
+
+
+/*-----------When not at top -------------*/
+
+
+.navbarTop{
+    background-color: transparent !important;
+    height: 90px;
+    transition: height 1s;
+}
+
