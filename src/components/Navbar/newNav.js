@@ -45,7 +45,7 @@ const Example = (props) => {
             console.log(window.scrollY)
             //not Mine
 
-        }, 200);
+        }, 150);
     }
 
     addEffect('scroll', scrollHandeler, true)
@@ -107,14 +107,7 @@ const Example = (props) => {
                 </div>
                 )
             }
-
-
-
-
-
-           
         </span>
-
     );
 }
 

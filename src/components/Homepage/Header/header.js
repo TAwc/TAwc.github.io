@@ -34,12 +34,12 @@ const Header = () =>  {
       
 
     var linkData = [
-                    {text: "Twitter", img: twitterImg, Link: "https://twitter.com/AlexWatermen1"},
-                    {text: "SnapChat", img: snapchatImg, Link: "https://twitter.com/AlexWatermen1"},
-                    {text: "Instagram", img: InstagramImg, Link: "https://twitter.com/AlexWatermen1"},
-                    {text: "Youtube", img: youtubeImg, Link: "https://twitter.com/AlexWatermen1"},
-                    {text: "linked In", img: linkedImg, Link: "https://twitter.com/AlexWatermen1"},
-                    {text: "GitHub", img: githubImg, Link: "https://twitter.com/AlexWatermen1"},
+                    {text: "Twitter", img: twitterImg, link: "https://twitter.com/AlexWatermen1"},
+                    {text: "SnapChat", img: snapchatImg, link: "https://www.snapchat.com/add/Peglo1"},
+                    {text: "Instagram", img: InstagramImg, link: "https://www.instagram.com/alex_watermen/"},
+                    {text: "Youtube", img: youtubeImg, link: "https://www.youtube.com/channel/UCFVVwZYtVi0Wt3xZxQd3Xdg"},
+                    {text: "linked In", img: linkedImg, link: "https://www.linkedin.com/in/alexanderwatersli/"},
+                    {text: "GitHub", img: githubImg, link: "https://github.com/TAwc"},
                   ]
 
 
@@ -104,8 +104,8 @@ const Header = () =>  {
                           <Row noGutters>
                           {
                             linkData.map((link) =>{
-                              return (<Col xs="2" className={styles.imageLinkHolder} key={link.text}>                 
-                                        <a href={link.link}>
+                              return (<Col xs="2" className={styles.imageLinkHolder} key={link.link}>                  
+                                        <a href={link.link} className={styles.ImgLink}>
                                           <img src={link.img} className = {styles.BotImgLink} alt ={link.text}/>
                                         </a>
                                       </Col>)
@@ -125,8 +125,8 @@ const Header = () =>  {
               <p className={styles.readMoretext}>Read More</p>
               <div className={styles.ArrowImageHolder}>
                 <ul className = {styles.arrowList}>
-                  <li classname={styles.arrowImageLI}><img className={styles.readMorearrow} src={readMoreArrowImg} alt="read more"/></li>
-                  <li classname={styles.arrowImageLI}><img className={styles.readMorearrow + " " + styles.arrow2} src={readMoreArrowImg} alt="read more"/></li>
+                  <li className={styles.arrowImageLI}><img className={styles.readMorearrow} src={readMoreArrowImg} alt="read more"/></li>
+                  <li className={styles.arrowImageLI}><img className={styles.readMorearrow + " " + styles.arrow2} src={readMoreArrowImg} alt="read more"/></li>
                 </ul>
               </div>
             </div>

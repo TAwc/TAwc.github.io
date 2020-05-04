@@ -54,6 +54,7 @@
     width: 5vh;
     margin-left: calc(100% / 6);
     margin-right: calc(100% / 6);
+    cursor: pointer;
 }
 
 
