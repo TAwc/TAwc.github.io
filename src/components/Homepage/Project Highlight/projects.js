@@ -41,7 +41,7 @@ const Projects = () =>  {
               <p className={styles.titleText}>Project Highlights</p>
             </div>
             <div className={styles.descContainer}>
-              <p></p>
+              <p className={styles.descText}>A few of my proejcts I just think are the most notable, but click on the button bellow to see more</p>
             </div>
             <div className={styles.projetcListContainer}>
               <Table hover size="sm"> 
@@ -61,7 +61,7 @@ const Projects = () =>  {
                         <tr key={project.name}>
                           <td>{project.name}</td>
                           <td>{project.desc}</td>
-                          <td><a src={project.repo}>{project.type}</a></td>
+                          <td><a href={project.repo}>{project.type}</a></td>
                         </tr>
                       )
                     })

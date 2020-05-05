@@ -26,6 +26,10 @@
     margin: auto;
 }
 
+.descContainer{
+    text-align: center;
+    padding-bottom: 10px;
+}
 
 
 .seeMoreContainer{
@@ -33,6 +37,8 @@
     margin: auto;
     width: 100px;
 }
+
+
 @media only screen and (max-width: 992px){
 
 }

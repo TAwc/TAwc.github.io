@@ -7,7 +7,6 @@ import Header from "../../components/Homepage/Header/header"
 import Summary from "../../components/Homepage/Summary/summary"
 import Techs from "../../components/Homepage/Tech Background/techs"
 import Projects from "../../components/Homepage/Project Highlight/projects"
-import footer from "../../components/Footer/footer"
 import Footer from '../../components/Footer/footer';
 
 const Homepage = () =>  {

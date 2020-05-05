@@ -5,9 +5,6 @@ import styles from './techs.module.css'
 import { Container, Row, Col } from 'reactstrap';
 
 
-import headshot from '../../../images/Headshot(edit) 5-4-2020.jpg'
-
-
 const Techs = () =>  {
 
   const github = "https://github.com/TAwc"
