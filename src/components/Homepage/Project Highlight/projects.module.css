@@ -1,0 +1,38 @@
+.main{
+    background-color: var(--Main-white);
+}
+
+
+
+.sectionContainer{
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+
+.titleText{
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold; 
+}
+
+.titleContainer{
+    padding-bottom: 30px;
+}
+
+
+.projetcListContainer{
+    width: 60%;
+    margin: auto;
+}
+
+
+
+.seeMoreContainer{
+    padding-top: 70px;
+    margin: auto;
+    width: 100px;
+}
+@media only screen and (max-width: 992px){
+
+}

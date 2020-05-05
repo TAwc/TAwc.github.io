@@ -10,14 +10,14 @@ import headshot from '../../../images/Headshot(edit) 5-4-2020.jpg'
 
 const Techs = () =>  {
 
-  const github = "https://github.com/TAwc/website"
+  const github = "https://github.com/TAwc"
 
   let i=0;
   const techs = [
                   {label : "Languages", list : ["python", "c++", "java", "Javascript","html","css","c#","processing","bash"]},
                   {label : "Frameworks", list : ["react", "electorn", "django"]},
                   {label : "Concepts", list : ["neural networks", "pathfinding (A*)", "discord bots", "unity programming",
-                                                "data stuctures","web scraping (legally)","github pages (this)","processing","linux/unix", "multithreading", "asynchronous"]},
+                                                "data stuctures","web scraping (legally)","github pages (this)","linux/unix", "multithreading", "asynchronous"]},
                   {label : "Open source", list : [
                     <a className={styles.inlineLink} href={github}>github</a>,
                     <a className={styles.inlineLink} href={"https://github.com/CSI-280/playdogplay"}>CSI-280/playdogplay</a>,
