@@ -1,22 +1,19 @@
 import React from 'react';
 import styles from './aboutme.module.css'
 
-
+import Footer from '../../components/Footer/footer'
+import SAS from '../../components/AboutMe/SAS/SAS'
+import Future from '../../components/AboutMe/Future/future'
+import Background from '../../components/AboutMe/Background/background'
 
 const AboutMe = () =>  {
-  
-    //const [petTypes, setPetTypes] = useState([]);
-    
-    /*useEffect(() => {
-      pf.animalData.types()
-      .then(resp => {
-        setPetTypes(resp.data.types);
-      });
-    }, []);*/
    
     return (
       <div>
-          <h1 className={styles.h1}>About Me</h1>
+          <Background/>
+          <SAS/>
+          <Future/>
+          <Footer/>
       </div>
     );
 }

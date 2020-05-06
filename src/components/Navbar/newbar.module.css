@@ -24,7 +24,7 @@
 }
 
 .link:hover{
-    color: var(--Main-dark-gray) !important;
+    color: var(--Main-blue) !important;
 }
 
 
@@ -38,7 +38,9 @@
 }
 
 
-
+.sidebar{
+    padding-top: 100px;
+}
 
 @media only screen and (max-width: 767px){
     .brand{

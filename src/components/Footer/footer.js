@@ -10,7 +10,7 @@ import { Container, Row, Col } from 'reactstrap';
 const Footer = () =>  {
 
   const items = [
-                {text: "contact", link: "#"},
+                {text: "contact", link: process.env.PUBLIC_URL + '/contact'},
                 {text: "Twitter", link: "https://twitter.com/AlexWatermen1"},
                 {text: "SnapChat", link: "https://www.snapchat.com/add/Peglo1"},
                 {text: "Instagram", link: "https://www.instagram.com/alex_watermen/"},

@@ -1,0 +1,10 @@
+.main{
+    background-color: var(--Main-white);
+    height: 400px;
+}
+
+
+
+@media only screen and (max-width: 992px){
+
+}

@@ -18,11 +18,13 @@ const Example = (props) => {
     const [isOpen, setIsOpen] = useState(false);
     const toggle = () => setIsOpen(!isOpen);
 
-    const [varible, setVaraible] = useState(true)
-    const changeState = () => {setVaraible(!varible)}
+    const [date, renew] = useState(true)
+    const update = () => renew(!date)
 
     const [barshow, setShow] = useState(false)
 
+    
+    const getPath = (window.location.href.substr((window.location.href.indexOf("/website"))+8))
     
 
     // https://www.onlywebpro.com/2017/03/25/optimize-scrolling-performance-by-debouncing-scroll-event-calls/
@@ -51,13 +53,20 @@ const Example = (props) => {
 
     const page_values = [{text : "Home", path: ""},
                         {text : "About Me", path: "/aboutme"},
-                        {text : "Projects", path: "/projects"},]
+                        {text : "Projects", path: "/projects"},];
 
+
+    
 
     return (
         <span>
+
+            <div className={styles.container}>
             {
-                (barshow === false)? 
+                  
+                (barshow === false && getPath === "")? 
+
+                //AT TOP AND HOME 
                 (
                     <div className={styles.container}>
                         <Navbar className={styles.navbarTop} color="dark" dark expand="md">
@@ -67,14 +76,16 @@ const Example = (props) => {
                                 <Nav className="mr-auto" navbar>
                                     {
                                         page_values.map((page) => {
+                                            //console.log("rendering TOP")
+                                            //console.log("Path", getPath)
                                             return (<NavItem key = {page.path}> 
-                                                        <NavLink tag={Link} to={process.env.PUBLIC_URL + page.path} onClick={changeState} className={styles.link}>{page.text}</NavLink>
+                                                        <NavLink tag={Link} to={process.env.PUBLIC_URL + page.path} onClick={update} className={styles.link}>{page.text}</NavLink>
                                                     </NavItem>
                                             )
                                         })
                                     }
                                 </Nav>
-                            <NavLink className = {styles.git} href="https://github.com/TAwc/website">Contact</NavLink> {/*Update to contact page*/}
+                            <NavLink className = {styles.git} href={process.env.PUBLIC_URL + '/contact'}>Contact</NavLink> {/*Update to contact page */}
                             </Collapse>
                         </Navbar>
                     </div>
@@ -83,9 +94,10 @@ const Example = (props) => {
 
                 :
 
-
+                //NOT AT TOP AND NOT HOME 
 
                 (
+                    
                 <div className={styles.container}>
                     <Navbar className={styles.navbarNorm}color="dark" dark expand="md">
                         <NavbarBrand className={styles.brand} href={process.env.PUBLIC_URL}>Alexnader Waters</NavbarBrand>
@@ -94,19 +106,22 @@ const Example = (props) => {
                             <Nav className="mr-auto" navbar>
                                 {
                                     page_values.map((page) => {
+                                        //console.log("rendering BOT")
+                                        //console.log("Path", getPath)
                                         return (<NavItem key = {page.path}> 
-                                                    <NavLink tag={Link} to={process.env.PUBLIC_URL + page.path} onClick={changeState} className={styles.link}>{page.text}</NavLink>
+                                                    <NavLink tag={Link} to={process.env.PUBLIC_URL + page.path} className={styles.link}>{page.text}</NavLink>
                                                 </NavItem>
                                         )
                                     })
                                 }
                             </Nav>
-                        <NavLink className = {styles.git} href="https://github.com/TAwc/website">Contact</NavLink> {/*Update to contact page*/}
+                        <NavLink className = {styles.git} href={process.env.PUBLIC_URL + '/contact'}>Contact</NavLink> {/*Update to contact page */}
                         </Collapse>
                     </Navbar>
                 </div>
                 )
-            }
+            } 
+            </div>
         </span>
     );
 }

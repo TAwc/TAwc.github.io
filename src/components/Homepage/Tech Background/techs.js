@@ -29,7 +29,7 @@ const Techs = () =>  {
       <span>
          <div className = {styles.main}>
            <div className = {styles.techsContainer}>
-            <h2 className={styles.sectionHeader}>Techs</h2>
+            <h2 className={styles.sectionHeader}>TECHS</h2>
 
             <div className={styles.summaryContainer}>
               <p className={styles.summaryText}>In this following section is a few of the technologies I have used in the past or currently. You can find more about most items listed below listed in my <a className={styles.inlineLink} href={github}>github</a></p> 
