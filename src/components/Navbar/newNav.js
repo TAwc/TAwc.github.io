@@ -85,7 +85,7 @@ const Example = (props) => {
                                         })
                                     }
                                 </Nav>
-                            <NavLink className = {styles.git} to={process.env.PUBLIC_URL + '/contact'}>Contact</NavLink> {/*Update to contact page */}
+                            <NavLink className = {styles.git} to={process.env.PUBLIC_URL + '/contact' } tag={Link}>Contact</NavLink> {/*Update to contact page */}
                             </Collapse>
                         </Navbar>
                     </div>
@@ -115,7 +115,7 @@ const Example = (props) => {
                                     })
                                 }
                             </Nav>
-                        <NavLink className = {styles.git} to={process.env.PUBLIC_URL + '/contact'}>Contact</NavLink> {/*Update to contact page */}
+                        <NavLink className = {styles.git} to={process.env.PUBLIC_URL + '/contact'} tag={Link}>Contact</NavLink> {/*Update to contact page */}
                         </Collapse>
                     </Navbar>
                 </div>
