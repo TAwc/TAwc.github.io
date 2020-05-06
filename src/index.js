@@ -22,11 +22,11 @@ ReactDOM.render(
     <BrowserRouter>
       <Navbar/>
       <Switch>
-        <Route exact path = {process.env.PUBLIC_URL + ""} component = {Homepage}/>
+        <Route exact path = {process.env.PUBLIC_URL + "/"} component = {Homepage}/>
         <Route path = {process.env.PUBLIC_URL + "/aboutme"} component = {AboutMe}/>
         <Route path = {process.env.PUBLIC_URL + "/Projects"} component = {Projects}/>
         <Route path = {process.env.PUBLIC_URL + "/contact"} component = {Contact}/>
-        <Redirect to= {process.env.PUBLIC_URL + ""} /> }
+        <Redirect to= {process.env.PUBLIC_URL + "/"} /> }
       </Switch>
     </BrowserRouter>
   </React.StrictMode>,

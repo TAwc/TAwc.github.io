@@ -51,7 +51,7 @@ const Example = (props) => {
     addEffect('scroll', scrollHandeler, true)
     
 
-    const page_values = [{text : "Home", path: ""},
+    const page_values = [{text : "Home", path: "/"},
                         {text : "About Me", path: "/aboutme"},
                         {text : "Projects", path: "/projects"},];
 
@@ -64,7 +64,7 @@ const Example = (props) => {
             <div className={styles.container}>
             {
                   
-                (barshow === false && getPath === "")? 
+                (barshow === false && getPath === "/")? 
 
                 //AT TOP AND HOME 
                 (
@@ -85,7 +85,7 @@ const Example = (props) => {
                                         })
                                     }
                                 </Nav>
-                            <NavLink className = {styles.git} href={process.env.PUBLIC_URL + '/contact'}>Contact</NavLink> {/*Update to contact page */}
+                            <NavLink className = {styles.git} to={process.env.PUBLIC_URL + '/contact'}>Contact</NavLink> {/*Update to contact page */}
                             </Collapse>
                         </Navbar>
                     </div>
@@ -115,7 +115,7 @@ const Example = (props) => {
                                     })
                                 }
                             </Nav>
-                        <NavLink className = {styles.git} href={process.env.PUBLIC_URL + '/contact'}>Contact</NavLink> {/*Update to contact page */}
+                        <NavLink className = {styles.git} to={process.env.PUBLIC_URL + '/contact'}>Contact</NavLink> {/*Update to contact page */}
                         </Collapse>
                     </Navbar>
                 </div>
