@@ -4,10 +4,9 @@
 }
 
 .sectionContainer{
-    padding-top: 160px;
-    padding-bottom: 200px;
+    padding-top: 14vh;
+    padding-bottom: 14vh;
 }
-
 
 .carousel-item { 
     width: 50%; 
@@ -31,12 +30,12 @@
 }
 
 .aboutMePar{
-    font-size: 18px;
+    font-size: 14px;
     text-align: justify;
 }
 
 @media only screen and (min-width: 992px){
     .carouselContainer{
-        padding-top: 17%;
+        padding-top: 20%;
     }
 }
