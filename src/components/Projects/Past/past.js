@@ -43,9 +43,8 @@ const Past = () =>  {
                         console.log(project.name)
                         return(
                           <Col lg={6} key={project.name}>
-                            <a href={project.link} className={styles.boxLink}>
-                            <div className={styles.growSpace}>
-                              <div className={styles.projectContainer}>
+                            <div className={styles.projectContainer}>
+                              <a href={project.link} className={styles.boxLink} target="_blank" rel="noopener noreferrer">
                                 <div className={styles.InternalBox}>
 
                                   <div className={styles.projectHeaderContainer}>
@@ -83,9 +82,8 @@ const Past = () =>  {
                                     
                                   </div>
                                 </div>
-                              </div>
+                              </a>
                             </div>
-                            </a>
                           </Col>
                         )
                       })

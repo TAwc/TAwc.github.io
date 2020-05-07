@@ -55,9 +55,6 @@ const Example = (props) => {
                         {text : "About Me", path: "/aboutme"},
                         {text : "Projects", path: "/projects"},];
 
-
-    
-
     return (
         <span>
 
