@@ -45,7 +45,6 @@ const SAS = () =>  {
                   <Row key={i}>
                     {
                       skillset.map((skill) =>{
-                        console.log(skill.skill)
                         return(
                           <Col key={skill.skill}>
                             <div className={styles.itemContainer}>

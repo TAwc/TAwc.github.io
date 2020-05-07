@@ -1,10 +1,116 @@
 .main{
     background-color: var(--Main-white);
-    height: 1000px;
+}
+
+
+.contentContainer{
+    padding-top: 100px;
+}
+
+
+.titleText{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.bodyContainer{
+    min-height: calc(100%);
+}
+
+.boxLink:hover{
+    text-decoration: none;
+}
+
+.growSpace{
+    width: 100%;
+    min-height: 100%;
+}
+
+
+.projectContainer{
+    border-radius: 35px;
+    background-color: var(--Main-dark-gray);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    width: 60%;
+    height: 60%;
+    margin: auto;
+    margin-top: 10%;
+    transition: 0.2s
+
+}
+
+.projectContainer:hover{
+    margin-top: 0;
+    height: 70%;
+    width: 70%;
+    transition: 0.2s;
+}
+
+.InternalBox{
+    text-align: center;
+    width: 70%;
+    color: var(--Main-blue);
+    margin: auto;
 }
 
 
 
+.projectHeaderContainer{
+    padding-top: 20px;
+}
+
+.projectHeaderText{
+    color: var(--Main-blue);
+    font-size: 21px;
+}
+
+.projectImage{
+    width: 70%;
+    border-radius: 50%;
+}
+
+
+.projectBodyContainer{
+    padding-top: 10px;
+}
+
+.projectBodyText{
+    color: var(--Main-white);
+    font-size: 18px;
+}
+
+.techListContianer{
+    width: 70%;
+    margin: auto;
+}
+
+.techList{
+
+    text-align: left;
+}
+
+.usedTechText{
+    font-size: 16px;
+}
+
+
+/*
+
+.techList{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+
+
+.techListContianer{
+    width: 7vw;
+    margin: auto;
+}
+*/
 @media only screen and (max-width: 992px){
 
 }
