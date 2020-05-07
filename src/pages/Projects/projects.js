@@ -2,20 +2,19 @@ import React, { useEffect } from 'react';
 import styles from './projects.module.css'
 
 
-//import Unity from './Projects/unity'
+import Future from '../../components/Projects/Future/future'
+import Current from '../../components/Projects/Current/current'
+import Past from '../../components/Projects/Past/past'
+import Footer from '../../components/Footer/footer'
 
 const Projects = () =>  {
-  
-    
-    //const [petTypes, setPetTypes] = useState([]);
-    
-    useEffect(() => {
-        
-    }, []);
-   
+
     return (
       <div>
-          <h1 className={styles.h1}>Projects</h1>
+        <Past/>
+        <Current/>
+        <Future/>
+        <Footer/>
       </div>
     );
 }

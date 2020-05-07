@@ -15,10 +15,12 @@ import AboutMe from './pages/AboutMe/aboutme'
 import Projects from './pages/Projects/projects'
 import Contact from './pages/Contact/contact'
 
+import icon from './images/Headshot(edit) 5-4-2020.jpg'
 
 
 ReactDOM.render(
   <React.StrictMode>
+    <link rel="icon" href={icon}></link>
     <BrowserRouter>
       <Navbar/>
       <Switch>
