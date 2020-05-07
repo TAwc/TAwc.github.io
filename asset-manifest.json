@@ -1,28 +1,32 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.6bcda27d.chunk.css",
-    "main.js": "/website/static/js/main.e74cfb13.chunk.js",
-    "main.js.map": "/website/static/js/main.e74cfb13.chunk.js.map",
+    "main.css": "/website/static/css/main.6695a9e3.chunk.css",
+    "main.js": "/website/static/js/main.f2fb7ef1.chunk.js",
+    "main.js.map": "/website/static/js/main.f2fb7ef1.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.e06ec2de.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.e06ec2de.js.map",
     "static/css/2.69121389.chunk.css": "/website/static/css/2.69121389.chunk.css",
-    "static/js/2.33741e2d.chunk.js": "/website/static/js/2.33741e2d.chunk.js",
-    "static/js/2.33741e2d.chunk.js.map": "/website/static/js/2.33741e2d.chunk.js.map",
+    "static/js/2.d789e788.chunk.js": "/website/static/js/2.d789e788.chunk.js",
+    "static/js/2.d789e788.chunk.js.map": "/website/static/js/2.d789e788.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.ecb7df3ea6821885ca05311966c08087.js": "/website/precache-manifest.ecb7df3ea6821885ca05311966c08087.js",
+    "precache-manifest.0e14c68e51716ab784253dc67816bad9.js": "/website/precache-manifest.0e14c68e51716ab784253dc67816bad9.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/website/static/css/2.69121389.chunk.css.map",
-    "static/css/main.6bcda27d.chunk.css.map": "/website/static/css/main.6bcda27d.chunk.css.map",
-    "static/js/2.33741e2d.chunk.js.LICENSE.txt": "/website/static/js/2.33741e2d.chunk.js.LICENSE.txt",
+    "static/css/main.6695a9e3.chunk.css.map": "/website/static/css/main.6695a9e3.chunk.css.map",
+    "static/js/2.d789e788.chunk.js.LICENSE.txt": "/website/static/js/2.d789e788.chunk.js.LICENSE.txt",
     "static/media/header.module.css": "/website/static/media/Alex_pic.f01a3bf2.png",
+    "static/media/Headshot 5-4-2020.JPG": "/website/static/media/Headshot 5-4-2020.4cc85930.JPG",
     "static/media/Headshot(edit) 5-4-2020.jpg": "/website/static/media/Headshot(edit) 5-4-2020.27083a2a.jpg",
+    "static/media/Hiking.jpg": "/website/static/media/Hiking.a58ea054.jpg",
+    "static/media/Leaves.JPG": "/website/static/media/Leaves.80bdabdc.JPG",
+    "static/media/Montreal.JPG": "/website/static/media/Montreal.d57e1603.JPG",
     "static/media/ReadMoreArrow.png": "/website/static/media/ReadMoreArrow.44f28ff5.png"
   },
   "entrypoints": [
     "static/js/runtime-main.e06ec2de.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.33741e2d.chunk.js",
-    "static/css/main.6bcda27d.chunk.css",
-    "static/js/main.e74cfb13.chunk.js"
+    "static/js/2.d789e788.chunk.js",
+    "static/css/main.6695a9e3.chunk.css",
+    "static/js/main.f2fb7ef1.chunk.js"
   ]
 }
