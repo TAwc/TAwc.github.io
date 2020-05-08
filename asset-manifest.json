@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.857b693b.chunk.css",
-    "main.js": "/website/static/js/main.eab389ea.chunk.js",
-    "main.js.map": "/website/static/js/main.eab389ea.chunk.js.map",
+    "main.css": "/website/static/css/main.1784bdf3.chunk.css",
+    "main.js": "/website/static/js/main.4b9b1d91.chunk.js",
+    "main.js.map": "/website/static/js/main.4b9b1d91.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.e06ec2de.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.e06ec2de.js.map",
     "static/css/2.69121389.chunk.css": "/website/static/css/2.69121389.chunk.css",
-    "static/js/2.05f128ed.chunk.js": "/website/static/js/2.05f128ed.chunk.js",
-    "static/js/2.05f128ed.chunk.js.map": "/website/static/js/2.05f128ed.chunk.js.map",
+    "static/js/2.065f32c4.chunk.js": "/website/static/js/2.065f32c4.chunk.js",
+    "static/js/2.065f32c4.chunk.js.map": "/website/static/js/2.065f32c4.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.c9585da7fd224042d19f051e1023b232.js": "/website/precache-manifest.c9585da7fd224042d19f051e1023b232.js",
+    "precache-manifest.751f5c71b6cd58409180a64eaed3dee3.js": "/website/precache-manifest.751f5c71b6cd58409180a64eaed3dee3.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/website/static/css/2.69121389.chunk.css.map",
-    "static/css/main.857b693b.chunk.css.map": "/website/static/css/main.857b693b.chunk.css.map",
-    "static/js/2.05f128ed.chunk.js.LICENSE.txt": "/website/static/js/2.05f128ed.chunk.js.LICENSE.txt",
+    "static/css/main.1784bdf3.chunk.css.map": "/website/static/css/main.1784bdf3.chunk.css.map",
+    "static/js/2.065f32c4.chunk.js.LICENSE.txt": "/website/static/js/2.065f32c4.chunk.js.LICENSE.txt",
     "static/media/A-Star..PNG": "/website/static/media/A-Star..063b0ffa.PNG",
     "static/media/header.module.css": "/website/static/media/Alex_pic.f01a3bf2.png",
     "static/media/Chat.PNG": "/website/static/media/Chat.f313f9de.PNG",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.e06ec2de.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.05f128ed.chunk.js",
-    "static/css/main.857b693b.chunk.css",
-    "static/js/main.eab389ea.chunk.js"
+    "static/js/2.065f32c4.chunk.js",
+    "static/css/main.1784bdf3.chunk.css",
+    "static/js/main.4b9b1d91.chunk.js"
   ]
 }
