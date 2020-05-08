@@ -1,35 +1,47 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "45f3c25a07d6d6ca8282d786d5e0d008",
+    "revision": "dd1487ec805aa279c82bdc3514d94dc1",
     "url": "/website/index.html"
   },
   {
-    "revision": "5673760b5e93d6358de8",
+    "revision": "0d3bfd7517fc987bcf52",
     "url": "/website/static/css/2.69121389.chunk.css"
   },
   {
-    "revision": "fa738e32562a168766eb",
-    "url": "/website/static/css/main.c8ec6b89.chunk.css"
+    "revision": "eccd5c277dfa456770e5",
+    "url": "/website/static/css/main.779ce8f1.chunk.css"
   },
   {
-    "revision": "5673760b5e93d6358de8",
-    "url": "/website/static/js/2.f038d7ef.chunk.js"
+    "revision": "0d3bfd7517fc987bcf52",
+    "url": "/website/static/js/2.ddacf553.chunk.js"
   },
   {
     "revision": "3453b8997016469371284a28c0e873e2",
-    "url": "/website/static/js/2.f038d7ef.chunk.js.LICENSE.txt"
+    "url": "/website/static/js/2.ddacf553.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "fa738e32562a168766eb",
-    "url": "/website/static/js/main.b81a0481.chunk.js"
+    "revision": "eccd5c277dfa456770e5",
+    "url": "/website/static/js/main.3d77665b.chunk.js"
   },
   {
     "revision": "ba2382361bea94564ff1",
     "url": "/website/static/js/runtime-main.e06ec2de.js"
   },
   {
+    "revision": "063b0ffa8e55c04649a410aeef0b72bd",
+    "url": "/website/static/media/A-Star..063b0ffa.PNG"
+  },
+  {
     "revision": "f01a3bf234bba6adc54aa1474708595a",
     "url": "/website/static/media/Alex_pic.f01a3bf2.png"
+  },
+  {
+    "revision": "f313f9de007710f2f405ef1cec547618",
+    "url": "/website/static/media/Chat.f313f9de.PNG"
+  },
+  {
+    "revision": "2bdd175d810a24b5376219e6700c0a79",
+    "url": "/website/static/media/Corona.2bdd175d.PNG"
   },
   {
     "revision": "4cc85930faef0c7127b58ace9b747811",
@@ -52,7 +64,19 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/website/static/media/Montreal.d57e1603.JPG"
   },
   {
+    "revision": "2babaa06493cc32648e7e8fca755c63b",
+    "url": "/website/static/media/NN.2babaa06.PNG"
+  },
+  {
     "revision": "44f28ff5ddf738f8add1df097a7cb4c1",
     "url": "/website/static/media/ReadMoreArrow.44f28ff5.png"
+  },
+  {
+    "revision": "380c1109690a659e388d5accf9fc4dad",
+    "url": "/website/static/media/Website.380c1109.PNG"
+  },
+  {
+    "revision": "efacba2c79c4af41e57c20518de770da",
+    "url": "/website/static/media/snake.efacba2c.PNG"
   }
 ]);
