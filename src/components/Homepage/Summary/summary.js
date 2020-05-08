@@ -28,11 +28,11 @@ const Header = () =>  {
                   </Col>
                   <Col lg={5}>
                     <p className={styles.sumtext}>
-                    My name is Alexander Waters, A Computer since and innovation major at Champlain College scheduled to get my degree in May 2020. 
-                    while excited for almost anything about programming, one of my biggest interest lies within Artificial intelligence. 
-                    With skills I have built via an internship, jobs, classes, and most importantly personal projects, I'm excited to tackle the next 
-                    chapter and challenge in my life. While programming is a big part of my life, I have other hobbies such as photography and photo/video 
-                    editing. Click around to find out more
+                    My name is Alexander Waters, a Computer Science and Innovation major at Champlain College graduating in May 2022. 
+                    While excited for anything that involves programming, one of my biggest interests lie in Artificial Intelligence. 
+                    With the skills I have acquired via internship, jobs, classes, and personal projects, 
+                    I am excited to tackle the next chapter of my life. 
+                    When I am not busying myself with programming, I love to work with photography and photo/video editing as well.
                     </p>
                   </Col>
                   <Col sm={2}>

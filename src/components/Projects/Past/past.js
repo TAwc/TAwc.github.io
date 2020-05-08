@@ -21,7 +21,7 @@ const Past = () =>  {
                         {name : "Chat Service", description : "A simple Chat system made to send messages between users using dedicated servers", pic : Chatimg, link : "https://github.com/TAwc/messaging-service", techs : ["Python","sockets","networking"]}],
                       [ {name : "Campus-AStar-pathing", description : "A very simple node based path finding algorithm for my college campus", pic : ASimg, link : "https://github.com/TAwc/Campus-AStar-pathing", techs : ["Processings", "A*"]}, 
                         {name : "Neural Network Lib", description : "A long working project, a custom nerual network Library to help me understand them better", pic : NNimg, link : "https://github.com/TAwc/NeuralNetworkLib", techs : ["pyhton","Neural Networks", "Tensorflow", "Numpy"]}],
-                      [ {name : "COVID-19 Visualizer", description : "Nothing speical, but i used this to watch the grow and fall of covid 19", pic : Coronaimg, link : "https://github.com/TAwc/corona_visualization", techs : ["Pyhton", "tkinter", "matplotlib"]}, 
+                      [ {name : "COVID-19 Visualizer", description : "A data set graphed created and used to watch the rise and fall of covid 19 cases", pic : Coronaimg, link : "https://github.com/TAwc/corona_visualization", techs : ["Pyhton", "tkinter", "matplotlib"]}, 
                         {name : "Snake-Game", description : "A implimention of the classic game snake, going to be used in latter projetcs for AI", pic : SnakeImg, link : "https://github.com/TAwc/Snake-Game", techs : ["Pyhton","tkinter"]} ] 
                     ]
 
@@ -38,8 +38,8 @@ const Past = () =>  {
             </div>
             <div className={styles.summaryContainer}>
               <p className={styles.summaryText}>
-                This section is about projects I have worked on in the past, not neccessarly that they are complete. Click on a box to be taken to the repositry. <br></br>
-                You can also just browse my <a href={github} className={styles.inlineLink} target="_blank" rel="noopener noreferrer">github</a> 
+              Projects I have worked and continue to improve on.  Click on a box to be taken to the repositry.<br></br>
+              Click here to browse <a href={github} className={styles.inlineLink} target="_blank" rel="noopener noreferrer">github</a> as well.
               </p>
             </div>
             <div className={styles.bodyContainer}>

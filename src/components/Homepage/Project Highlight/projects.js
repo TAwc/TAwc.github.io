@@ -18,8 +18,7 @@ const Projects = () =>  {
                 },
                 {
                   name: "Campus-AStar-pathing", 
-                  desc: "A simple A* Node Based Pathing system for my college's campus. \
-                  There are ways to improve it but I didnt need to at the time but thought some of you might be interested", 
+                  desc: "A simple A* Node Based Pathing system for my college's campus.", 
                   repo: "https://github.com/TAwc/Campus-AStar-pathing",
                   type: "github"
                 },
@@ -41,7 +40,7 @@ const Projects = () =>  {
               <p className={styles.titleText}>Project Highlights</p>
             </div>
             <div className={styles.descContainer}>
-              <p className={styles.descText}>A few of my proejcts I just think are the most notable, but click on the button bellow to see more</p>
+              <p className={styles.descText}>A few of my notable projects</p>
             </div>
             <div className={styles.projetcListContainer}>
               <Table hover size="sm"> 
