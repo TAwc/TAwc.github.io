@@ -98,6 +98,9 @@
     height: 8vh;
 }
 
+.readMoreContainer:hover{
+    cursor: pointer;
+}
 
 .arrowList{
     padding-left: 0;

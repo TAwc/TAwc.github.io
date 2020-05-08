@@ -31,6 +31,12 @@ const Header = () =>  {
       }
     }, [width]);
     
+
+    const scrollHandel = (location) =>{window.scrollTo({
+      top: location,
+      left: 0,
+      behavior: 'smooth'
+    });}
       
 
     var linkData = [
@@ -121,8 +127,8 @@ const Header = () =>  {
                   
               </Container>
             </div>
-            <div className={styles.readMoreContainer}>
-              <p className={styles.readMoretext}>Read More</p>
+            <div className={styles.readMoreContainer} onClick={() => scrollHandel(800)} >
+              <p className={styles.readMoretext} >Read More</p>
               <div className={styles.ArrowImageHolder}>
                 <ul className = {styles.arrowList}>
                   <li className={styles.arrowImageLI}><img className={styles.readMorearrow} src={readMoreArrowImg} alt="read more"/></li>

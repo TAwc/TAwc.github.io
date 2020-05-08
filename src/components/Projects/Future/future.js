@@ -10,6 +10,7 @@ const Future = () =>  {
     const concepts = ["Sercuity and Exploits","Neural Networks", "Electrical Engineering", "Block chain", "Game Programming", "Image/Video Processing", "Compression",
                       "Audio Analyzation", "IOT", "Cryptography and Encryption", "Assembly"]
 
+    let i = 0;
     return (
       <span>
         <div className = {styles.main}>
@@ -27,8 +28,9 @@ const Future = () =>  {
             <div className={styles.BodyContianer}>
               <ul>
                 {concepts.map((concept) => {
+                  i++;
                   return(
-                    <li className={styles.item}>{concept}</li>
+                    <li key={i} className={styles.item}>{concept}</li>
                   )
                 })}
 

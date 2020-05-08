@@ -50,6 +50,12 @@ const Example = (props) => {
 
     addEffect('scroll', scrollHandeler, true)
     
+    const scrollMove = (location) =>{window.scrollTo({
+        top: location,
+        left: 0,
+        
+    });}
+
 
     const page_values = [{text : "Home", path: "/"},
                         {text : "About Me", path: "/aboutme"},
@@ -76,7 +82,7 @@ const Example = (props) => {
                                             //console.log("rendering TOP")
                                             //console.log("Path", getPath)
                                             return (<NavItem key = {page.path}> 
-                                                        <NavLink tag={Link} to={process.env.PUBLIC_URL + page.path} onClick={update} className={styles.link}>{page.text}</NavLink>
+                                                        <NavLink tag={Link} to={process.env.PUBLIC_URL + page.path} onClick={() => {update(); scrollMove(0)}} className={styles.link}>{page.text}</NavLink>
                                                     </NavItem>
                                             )
                                         })
@@ -106,7 +112,7 @@ const Example = (props) => {
                                         //console.log("rendering BOT")
                                         //console.log("Path", getPath)
                                         return (<NavItem key = {page.path}> 
-                                                    <NavLink tag={Link} to={process.env.PUBLIC_URL + page.path} className={styles.link}>{page.text}</NavLink>
+                                                    <NavLink tag={Link} to={process.env.PUBLIC_URL + page.path} onClick={() => {update(); scrollMove(0)}} className={styles.link}>{page.text}</NavLink>
                                                 </NavItem>
                                         )
                                     })

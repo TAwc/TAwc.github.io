@@ -70,7 +70,7 @@ const Projects = () =>  {
               </Table>
             </div>
             <div className = {styles.seeMoreContainer}>
-                <Button outline color="info" tag={Link} to={process.env.PUBLIC_URL + "/projects"} >See More</Button>
+                <Button outline color="info" tag={Link} to={process.env.PUBLIC_URL + "/projects"} onClick={()=>{window.scrollTo(0, 0)}}>See More</Button>
             </div>
           </div>
         </div>
