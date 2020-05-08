@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './aboutme.module.css'
+//import styles from './aboutme.module.css'
 
 import Footer from '../../components/Footer/footer'
 import SAS from '../../components/AboutMe/SAS/SAS'

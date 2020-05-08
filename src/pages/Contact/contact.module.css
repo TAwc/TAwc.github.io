@@ -1,8 +1,11 @@
 .main{
-    height: 1080px;
+    height: 100vh;
     max-height: 100%;
 }
 
+.sectionBody{
+    height: 90%;
+}
 .center{
     padding-top: 40vh;
     padding-bottom: 20%;
@@ -13,3 +16,5 @@
 .email{
     font-size: 3vh;
 }
+
+

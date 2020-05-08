@@ -68,7 +68,7 @@ const Past = () =>  {
                                   </div>
 
                                   <div className = {styles.projectImageContainer}>
-                                    <img className={styles.projectImage} src={project.pic}/>
+                                    <img className={styles.projectImage} src={project.pic} alt="Project"/>
                                   </div>
 
                                   <div className = {styles.projectBodyContainer}>

@@ -10,7 +10,9 @@ N/A
 
 A simple website about me!
 
-https://coolors.co/020300-f0edee-484349-28262c-85c7f2
+upcoming developments:
+* A protfolio page for my intrest in photography
+* move to a server hosted by me
 
 used tech:
 react, 

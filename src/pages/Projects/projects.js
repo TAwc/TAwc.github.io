@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import styles from './projects.module.css'
+import React from 'react';
+//import styles from './projects.module.css'
 
 
 import Future from '../../components/Projects/Future/future'
