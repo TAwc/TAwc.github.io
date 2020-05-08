@@ -5,19 +5,27 @@ import styles from './past.module.css'
 import { Container, Row, Col } from 'reactstrap';
 
 
-import pict from '../../../images/Headshot(edit) 5-4-2020.jpg' 
+import ASimg from '../../../images/A-Star..PNG'
+import Chatimg from  '../../../images/Chat.PNG'
+import Coronaimg from '../../../images/Corona.PNG'
+import NNimg from '../../../images/NN.PNG'
+import SnakeImg from '../../../images/snake.PNG'
+import Websiteimg from '../../../images/Website.PNG'
+
+
 
 const Past = () =>  {
 
     const projects = [ 
-                      [ {name : "Website", description : "This Project is the one you are currently Viewing", pic : pict, link : "https://github.com/TAwc/website", techs : ["react","react-router-dom","reactstrap"]}, 
-                        {name : "Chat Service", description : "A simple Chat system made to send messages between users using dedicated servers", pic : pict, link : "https://github.com/TAwc/messaging-service", techs : ["Python","sockets","networking"]}],
-                      [ {name : "Campus-AStar-pathing", description : "A very simple node based path finding algorithm for my college campus", pic : pict, link : "https://github.com/TAwc/Campus-AStar-pathing", techs : ["Processings", "A*"]}, 
-                        {name : "Neural Network Lib", description : "A long working project, a custom nerual network Library to help me understand them better", pic : pict, link : "", techs : ["pyhton","Neural Networks", "Tensorflow", "Numpy"]}],
-                      [ {name : "COVID-19 Visualizer", description : "Nothing speical, but i used this to watch the grow and fall of covid 19", pic : pict, link : "", techs : ["Pyhton", "tkinter", "matplotlib"]}, 
-                        {name : "Snake-Game", description : "A implimention of the classic game snake, going to be used in latter projetcs for AI", pic : pict, link : "", techs : ["Pyhton","tkinter"]} ] 
+                      [ {name : "Website", description : "This Project is the one you are currently Viewing", pic : Websiteimg, link : "https://github.com/TAwc/website", techs : ["react","react-router-dom","reactstrap"]}, 
+                        {name : "Chat Service", description : "A simple Chat system made to send messages between users using dedicated servers", pic : Chatimg, link : "https://github.com/TAwc/messaging-service", techs : ["Python","sockets","networking"]}],
+                      [ {name : "Campus-AStar-pathing", description : "A very simple node based path finding algorithm for my college campus", pic : ASimg, link : "https://github.com/TAwc/Campus-AStar-pathing", techs : ["Processings", "A*"]}, 
+                        {name : "Neural Network Lib", description : "A long working project, a custom nerual network Library to help me understand them better", pic : NNimg, link : "https://github.com/TAwc/NeuralNetworkLib", techs : ["pyhton","Neural Networks", "Tensorflow", "Numpy"]}],
+                      [ {name : "COVID-19 Visualizer", description : "Nothing speical, but i used this to watch the grow and fall of covid 19", pic : Coronaimg, link : "https://github.com/TAwc/corona_visualization", techs : ["Pyhton", "tkinter", "matplotlib"]}, 
+                        {name : "Snake-Game", description : "A implimention of the classic game snake, going to be used in latter projetcs for AI", pic : SnakeImg, link : "https://github.com/TAwc/Snake-Game", techs : ["Pyhton","tkinter"]} ] 
                     ]
 
+    let github = 'https://github.com/TAwc'
 
     let i = 0;
 
@@ -27,6 +35,12 @@ const Past = () =>  {
         <div className={styles.contentContainer}>
             <div className={styles.titleContainer}>
               <p className={styles.titleText}>Past Projects</p>
+            </div>
+            <div className={styles.summaryContainer}>
+              <p className={styles.summaryText}>
+                This section is about projects I have worked on in the past, not neccessarly that they are complete. Click on a box to be taken to the repositry. <br></br>
+                You can also just browse my <a href={github} className={styles.inlineLink} target="_blank" rel="noopener noreferrer">github</a> 
+              </p>
             </div>
             <div className={styles.bodyContainer}>
 
