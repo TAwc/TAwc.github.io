@@ -103,7 +103,7 @@ const Example = (props) => {
                     
                 <div className={styles.container}>
                     <Navbar className={styles.navbarNorm}color="dark" dark expand="md">
-                        <NavbarBrand className={styles.brand} href={process.env.PUBLIC_URL}>Alexnader Waters</NavbarBrand>
+                        <NavbarBrand className={styles.brand} href={process.env.PUBLIC_URL}>Alexander Waters</NavbarBrand>
                         <NavbarToggler onClick={toggle} />
                         <Collapse isOpen={isOpen} navbar>
                             <Nav className="mr-auto" navbar>

@@ -6,6 +6,8 @@
 .sectionContainer{
     padding-top: 14vh;
     padding-bottom: 14vh;
+    padding-right: 30px;
+    padding-left: 30px;
 }
 
 .carousel-item { 
@@ -36,6 +38,16 @@
 
 @media only screen and (min-width: 992px){
     .carouselContainer{
-        padding-top: 25%;
+        padding-top: 100px;
+        margin-right: 20px;
+
+        float: left;
+        width: 40%;
     }
+
+    .sectionContainer{
+        padding-right: 15%;
+        padding-left: 15%;
+    }
+    
 }
