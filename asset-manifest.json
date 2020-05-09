@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.1784bdf3.chunk.css",
-    "main.js": "/website/static/js/main.4b9b1d91.chunk.js",
-    "main.js.map": "/website/static/js/main.4b9b1d91.chunk.js.map",
+    "main.css": "/website/static/css/main.1f66f6df.chunk.css",
+    "main.js": "/website/static/js/main.d82d17db.chunk.js",
+    "main.js.map": "/website/static/js/main.d82d17db.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.e06ec2de.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.e06ec2de.js.map",
     "static/css/2.69121389.chunk.css": "/website/static/css/2.69121389.chunk.css",
     "static/js/2.065f32c4.chunk.js": "/website/static/js/2.065f32c4.chunk.js",
     "static/js/2.065f32c4.chunk.js.map": "/website/static/js/2.065f32c4.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.751f5c71b6cd58409180a64eaed3dee3.js": "/website/precache-manifest.751f5c71b6cd58409180a64eaed3dee3.js",
+    "precache-manifest.e77ddaacb1ea91668d53fde71db05eb1.js": "/website/precache-manifest.e77ddaacb1ea91668d53fde71db05eb1.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/website/static/css/2.69121389.chunk.css.map",
-    "static/css/main.1784bdf3.chunk.css.map": "/website/static/css/main.1784bdf3.chunk.css.map",
+    "static/css/main.1f66f6df.chunk.css.map": "/website/static/css/main.1f66f6df.chunk.css.map",
     "static/js/2.065f32c4.chunk.js.LICENSE.txt": "/website/static/js/2.065f32c4.chunk.js.LICENSE.txt",
     "static/media/A-Star..PNG": "/website/static/media/A-Star..063b0ffa.PNG",
-    "static/media/header.module.css": "/website/static/media/Alex_pic.f01a3bf2.png",
+    "static/media/header.module.css": "/website/static/media/Alex_pic.f01a3bf2.jpg",
     "static/media/Chat.PNG": "/website/static/media/Chat.f313f9de.PNG",
     "static/media/Corona.PNG": "/website/static/media/Corona.2bdd175d.PNG",
     "static/media/Headshot 5-4-2020.JPG": "/website/static/media/Headshot 5-4-2020.4cc85930.JPG",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.e06ec2de.js",
     "static/css/2.69121389.chunk.css",
     "static/js/2.065f32c4.chunk.js",
-    "static/css/main.1784bdf3.chunk.css",
-    "static/js/main.4b9b1d91.chunk.js"
+    "static/css/main.1f66f6df.chunk.css",
+    "static/js/main.d82d17db.chunk.js"
   ]
 }
