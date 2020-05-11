@@ -62,7 +62,7 @@ const SAS = () =>  {
 
                               <div className = {styles.skillExampleContainer}>
                                 <p className={styles.skillExampleText}>
-                                  <a className={styles.exampleLink} href={skill.link}>{skill.example}</a>
+                                  <a className={styles.exampleLink} href={skill.link} target="_blank" rel="noopener noreferrer">{skill.example}</a>
                                 </p>
                               </div>
                             </div>
