@@ -38,20 +38,21 @@
     -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
     box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-    width: 60%;
+    width: 70%;
     margin: auto;
     margin-bottom: 50px;
-    transition: 0.2s;
+    transition: 0.1s;
+    height: 550px;
 }
 
 .projectContainer:hover{
     transform: translate(0,-20px) scale(1.1, 1.1);
-    transition: 0.2s;
+    transition: 0.1s;
 }
 
 .InternalBox{
     text-align: center;
-    width: 70%;
+    width: 80%;
     color: var(--Main-blue);
     margin: auto;
     padding-bottom: 20px;
