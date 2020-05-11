@@ -29,7 +29,7 @@ const Footer = () =>  {
                  items.map((item)=>{
                   return (
                     <Col key={item.text}>
-                      <a href={item.link}><p className={styles.itemText}>{item.text}</p></a>
+                      <a href={item.link} target="_blank" rel="noopener noreferrer"><p className={styles.itemText}>{item.text}</p></a>
                     </Col>
                   )
                  })

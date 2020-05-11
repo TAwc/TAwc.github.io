@@ -10,11 +10,11 @@ import { Container, Row, Col } from 'reactstrap';
 const SAS = () =>  {
 
   const skills = [ 
-                    [ {skill: "Teamwork ", why : "In a student ran project in Highschool I had a team of ~Sever members who I worked with for 4 years fixing the worlds toughest challenges.", 
+                    [ {skill: "Teamwork ", why : "In a student ran project in highschool I had a team of ~seven members who I worked with for 4 years fixing the worlds toughest challenges.", 
                         example : "Clothsed-Out", link : "https://sites.google.com/newfairfieldschools.org/clothesed-out/home"},
                       {skill: "Self efficent", why : "Over the years, I have tought myself many things, that were never tought to me such as neural networks.",
                           example : "Neural Network Lib", link : "https://github.com/TAwc/NeuralNetworkLib"}],
-                    [ {skill: "Public Speaking ", why : "Durring a year long comptetions my school would be in, I would commonly present our ideas and proejcts to many.", 
+                    [ {skill: "Public Speaking ", why : "Durring a year long comptetions my school would be in, I would commonly present our ideas and projects to many.", 
                         example : "DA11", link : "https://sites.google.com/newfairfieldschools.org/clothesed-out/home"}, 
                       {skill: "Communication ", why : "Working in a team for so long teaches you that you have to approach everyone differntly.", 
                         example : "L3D", link : "https://sites.google.com/newfairfieldschools.org/l3d/"}],
