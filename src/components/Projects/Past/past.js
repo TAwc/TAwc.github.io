@@ -104,9 +104,6 @@ const Past = () =>  {
                   </Row>
                 )
               })}
-
-
-               
               </Container>
             </div>
           </div>

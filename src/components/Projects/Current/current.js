@@ -5,8 +5,8 @@ import styles from './current.module.css'
 import { Container, Row, Col } from 'reactstrap';
 
 
+import NA from '../../../images/N-A.PNG'
 
-import Websiteimg from '../../../images/Website.PNG'
 import NNimg from '../../../images/NN.PNG'
 
 
@@ -14,7 +14,7 @@ import NNimg from '../../../images/NN.PNG'
 const Future = () =>  {
 
   const projects = [ 
-    [ {name : "Website", description : "This Project is the one you are currently Viewing", pic : Websiteimg, link : "https://github.com/TAwc/website", techs : ["react","react-router-dom","reactstrap"]}, 
+    [ {name : "Game Project", description : "A small game me and a few friends are working on over the summer", pic : NA, link : "#", techs : ["C#","Unity"]}, 
     {name : "Neural Network Lib", description : "A long working project, a custom nerual network Library to help me understand them better", pic : NNimg, link : "https://github.com/TAwc/NeuralNetworkLib", techs : ["pyhton","Neural Networks", "Tensorflow", "Numpy"]}],
     ]
 

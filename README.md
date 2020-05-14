@@ -6,7 +6,7 @@ predicited end date:
 6/3/2020
 
 landed end date:
-N/A
+5/11/2020
 
 A simple website about me!
 
