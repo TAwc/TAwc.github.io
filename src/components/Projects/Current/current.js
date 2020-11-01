@@ -14,7 +14,8 @@ import NNimg from '../../../images/NN.PNG'
 const Future = () =>  {
 
   const projects = [ 
-    [ {name : "Game Project", description : "A small game me and a few friends are working on over the summer", pic : NA, link : "#", techs : ["C#","Unity"]}, 
+    [ 
+    {name : "Game Project", description : "A small game me and a few friends are working on over the summer", pic : NA, link : "#", techs : ["C#","Unity"]}, 
     {name : "Neural Network Lib", description : "A long working project, a custom nerual network Library to help me understand them better", pic : NNimg, link : "https://github.com/TAwc/NeuralNetworkLib", techs : ["pyhton","Neural Networks", "Tensorflow", "Numpy"]}],
     ]
 

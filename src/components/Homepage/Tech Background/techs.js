@@ -11,10 +11,10 @@ const Techs = () =>  {
 
   let i=0;
   const techs = [
-                  {label : "Languages", list : ["python", "c++", "java", "Javascript","html","css","c#","processing","bash"]},
-                  {label : "Frameworks", list : ["react", "electorn", "django"]},
-                  {label : "Concepts", list : ["neural networks", "pathfinding (A*)", "discord bots", "unity programming",
-                                                "data stuctures","web scraping (legally)","github pages (this)","linux/unix", "multithreading", "asynchronous"]},
+                  {label : "Languages", list : ["Python", "C++", "Java", "Javascript","Html","Css","C#","Processing","Bash"]},
+                  {label : "Frameworks", list : ["React", "electron", "Django"]},
+                  {label : "Concepts", list : ["Neural networks", "pathfinding", "Discord bots", "Unity programming",
+                                                "Data stuctures","Web scraping (legally)","Github pages (this)","Linux/unix", "Multithreading", "Asynchronous"]},
                   {label : "Open source", list : [
                     <a className={styles.inlineLink} href={github}>github</a>,
                     <a className={styles.inlineLink} href={"https://github.com/CSI-280/playdogplay"}>CSI-280/playdogplay</a>,
@@ -33,8 +33,6 @@ const Techs = () =>  {
 
             <div className={styles.summaryContainer}>
               <p className={styles.summaryText}>In this following section are a few of the technologies I am familiar with. You can find more about most items listed below listed in my <a className={styles.inlineLink} href={github}>github</a></p> 
-
-
             </div>
             <Container>
               <Row>

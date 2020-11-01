@@ -49,12 +49,12 @@ const Background = () =>  {
               <div className={styles.aboutMeParContainer}>
                 <p className={styles.aboutMePar}>
                   &emsp; I was born in 2000 and grew up in a small Connecticut town. 
-                  There was not a lot to do in such a small town, leaving me with my games and computers most days. \
+                  There was not a lot to do in such a small town, leaving me with my games and computers most days.
                   During this time, I became very interested in <b>videos games</b> and began thinking about how I, <b>myself</b>, would <b>create</b> a game. 
                   I was seven at the time with zero background on computers, so that many of the things I found on google went straight over my head at the time.
                 </p>
                 <p className={styles.aboutMePar}>
-                  &emsp;Years passed but I never forgot about this dream of making games. 
+                  &emsp; Years passed but I never forgot about this dream of making games. 
                   In middle school I be came more interested in technology and created possibly the worst designed website for a school project — containing apoximently 
                   5 lines of code using raw <b>html</b> and <b>css</b>. However, this is where everything started. 
                 </p>

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './footer.module.css'
 //import {Link} from 'react-router-dom'
 
-import { Container, Row, Col } from 'reactstrap';
+import { Container, Row, Col, NavLink } from 'reactstrap';
 
 
 
@@ -29,7 +29,7 @@ const Footer = () =>  {
                  items.map((item)=>{
                   return (
                     <Col key={item.text}>
-                      <a href={item.link} target="_blank" rel="noopener noreferrer"><p className={styles.itemText}>{item.text}</p></a>
+                      <NavLink href={item.link} target="_blank" rel="noopener noreferrer"><p className={styles.itemText}>{item.text}</p></NavLink>
                     </Col>
                   )
                  })
