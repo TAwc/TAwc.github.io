@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/website/static/css/main.3697f408.chunk.css",
-    "main.js": "/website/static/js/main.1b266a9c.chunk.js",
-    "main.js.map": "/website/static/js/main.1b266a9c.chunk.js.map",
+    "main.css": "/website/static/css/main.4b551b4f.chunk.css",
+    "main.js": "/website/static/js/main.3f13e9e8.chunk.js",
+    "main.js.map": "/website/static/js/main.3f13e9e8.chunk.js.map",
     "runtime-main.js": "/website/static/js/runtime-main.e06ec2de.js",
     "runtime-main.js.map": "/website/static/js/runtime-main.e06ec2de.js.map",
     "static/css/2.69121389.chunk.css": "/website/static/css/2.69121389.chunk.css",
-    "static/js/2.ac0c9a28.chunk.js": "/website/static/js/2.ac0c9a28.chunk.js",
-    "static/js/2.ac0c9a28.chunk.js.map": "/website/static/js/2.ac0c9a28.chunk.js.map",
+    "static/js/2.b059f656.chunk.js": "/website/static/js/2.b059f656.chunk.js",
+    "static/js/2.b059f656.chunk.js.map": "/website/static/js/2.b059f656.chunk.js.map",
     "index.html": "/website/index.html",
-    "precache-manifest.3acb17586decc8e21c33e964a4d9f73e.js": "/website/precache-manifest.3acb17586decc8e21c33e964a4d9f73e.js",
+    "precache-manifest.7c35cd6b9746af83c8f5151d88f65a60.js": "/website/precache-manifest.7c35cd6b9746af83c8f5151d88f65a60.js",
     "service-worker.js": "/website/service-worker.js",
     "static/css/2.69121389.chunk.css.map": "/website/static/css/2.69121389.chunk.css.map",
-    "static/css/main.3697f408.chunk.css.map": "/website/static/css/main.3697f408.chunk.css.map",
-    "static/js/2.ac0c9a28.chunk.js.LICENSE.txt": "/website/static/js/2.ac0c9a28.chunk.js.LICENSE.txt",
+    "static/css/main.4b551b4f.chunk.css.map": "/website/static/css/main.4b551b4f.chunk.css.map",
+    "static/js/2.b059f656.chunk.js.LICENSE.txt": "/website/static/js/2.b059f656.chunk.js.LICENSE.txt",
     "static/media/A-Star..PNG": "/website/static/media/A-Star..063b0ffa.PNG",
     "static/media/Chat.PNG": "/website/static/media/Chat.f313f9de.PNG",
     "static/media/Corona.PNG": "/website/static/media/Corona.2bdd175d.PNG",
@@ -31,8 +31,8 @@
   "entrypoints": [
     "static/js/runtime-main.e06ec2de.js",
     "static/css/2.69121389.chunk.css",
-    "static/js/2.ac0c9a28.chunk.js",
-    "static/css/main.3697f408.chunk.css",
-    "static/js/main.1b266a9c.chunk.js"
+    "static/js/2.b059f656.chunk.js",
+    "static/css/main.4b551b4f.chunk.css",
+    "static/js/main.3f13e9e8.chunk.js"
   ]
 }
