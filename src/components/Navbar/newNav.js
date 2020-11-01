@@ -79,8 +79,6 @@ const Example = (props) => {
                                 <Nav className="mr-auto" navbar>
                                     {
                                         page_values.map((page) => {
-                                            //console.log("rendering TOP")
-                                            //console.log("Path", getPath)
                                             return (<NavItem key = {page.path}> 
                                                         <NavLink tag={Link} to={process.env.PUBLIC_URL + page.path} onClick={() => {update(); scrollMove(0)}} className={styles.link}>{page.text}</NavLink>
                                                     </NavItem>
@@ -88,7 +86,7 @@ const Example = (props) => {
                                         })
                                     }
                                 </Nav>
-                            <NavLink className = {styles.git} to={process.env.PUBLIC_URL + '/contact' } tag={Link}>Contact</NavLink> {/*Update to contact page */}
+                            <NavLink className = {styles.git} to={process.env.PUBLIC_URL + '/contact'} tag={Link}>Contact</NavLink> 
                             </Collapse>
                         </Navbar>
                     </div>

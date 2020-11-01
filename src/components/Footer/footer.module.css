@@ -12,6 +12,11 @@
     color: var(--Main-white);
 }
 
+.contact_nav{
+    margin: 0;
+    padding: 0 !important;
+
+}
 
 
 
