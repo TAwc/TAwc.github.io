@@ -10,10 +10,7 @@ import { Container, Row, Col, NavLink } from 'reactstrap';
 const Footer = () =>  {
 
   const items = [
-                {text: "Twitter", link: "https://twitter.com/AlexWatermen1"},
-                {text: "SnapChat", link: "https://www.snapchat.com/add/Peglo1"},
                 {text: "Instagram", link: "https://www.instagram.com/alex_watermen/"},
-                {text: "Youtube", link: "https://www.youtube.com/channel/UCFVVwZYtVi0Wt3xZxQd3Xdg"},
                 {text: "linked In", link: "https://www.linkedin.com/in/alexanderwatersli/"},
                 {text: "GitHub", link: "https://github.com/TAwc"},
               ]

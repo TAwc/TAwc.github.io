@@ -6,10 +6,10 @@ import { Container, Row, Col } from 'reactstrap';
 import WinDim from '../../windowDemensions'
 
 
-import twitterImg from "../../../images/twitter.png"
-import snapchatImg from "../../../images/snapchat.png"
+// import twitterImg from "../../../images/twitter.png"
+// import snapchatImg from "../../../images/snapchat.png"
 import InstagramImg from "../../../images/instagram.png"
-import youtubeImg from "../../../images/Youtube.png"
+// import youtubeImg from "../../../images/Youtube.png"
 import linkedImg from "../../../images/Linkedin.png"
 import githubImg from "../../../images/github.png"
 
@@ -40,10 +40,8 @@ const Header = () =>  {
       
 
     var linkData = [
-                    {text: "Twitter", img: twitterImg, link: "https://twitter.com/AlexWatermen1"},
-                    {text: "SnapChat", img: snapchatImg, link: "https://www.snapchat.com/add/Peglo1"},
+                   
                     {text: "Instagram", img: InstagramImg, link: "https://www.instagram.com/alex_watermen/"},
-                    {text: "Youtube", img: youtubeImg, link: "https://www.youtube.com/channel/UCFVVwZYtVi0Wt3xZxQd3Xdg"},
                     {text: "linked In", img: linkedImg, link: "https://www.linkedin.com/in/alexanderwatersli/"},
                     {text: "GitHub", img: githubImg, link: "https://github.com/TAwc"},
                   ]
