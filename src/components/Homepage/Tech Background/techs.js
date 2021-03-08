@@ -13,8 +13,8 @@ const Techs = () =>  {
   const techs = [
                   {label : "Languages", list : ["Python", "C++", "Java", "Javascript","Html","Css","C#","Processing","Bash"]},
                   {label : "Frameworks", list : ["React", "Electron", "Django"]},
-                  {label : "Concepts", list : ["Neural networks", "pathfinding", "Discord bots", "Unity programming",
-                                                "Data stuctures","Web scraping (legally)","Github pages (this)","Linux/unix", "Multithreading", "Asynchronous"]},
+                  {label : "Concepts", list : ["Neural networks", "path-finding", "Discord bots", "Unity programming",
+                                                "Data structures","Web scraping (legally)","Github pages (this)","Linux/unix", "Multithreading", "Asynchronous"]},
                   {label : "Open source", list : [
                     <a className={styles.inlineLink} href={github}>github</a>,
                     <a className={styles.inlineLink} href={"https://github.com/CSI-280/playdogplay"}>CSI-280/playdogplay</a>,

@@ -7,7 +7,7 @@ import styles from './future.module.css'
 
 const Future = () =>  {
 
-    const concepts = ["Sercuity and Exploits","Neural Networks", "Electrical Engineering", "Block chain", "Game Programming", "Image/Video Processing", "Compression",
+    const concepts = ["Security and Exploits","Neural Networks", "Electrical Engineering", "Block chain", "Game Programming", "Image/Video Processing", "Compression",
                       "Audio Analyzation", "IOT", "Cryptography and Encryption", "Assembly"]
 
     let i = 0;

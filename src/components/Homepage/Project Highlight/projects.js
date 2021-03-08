@@ -12,7 +12,7 @@ const Projects = () =>  {
     const projetcs = [
                 {
                   name: "messaging-service", 
-                  desc: "A simple messageing service made for a class", 
+                  desc: "A simple messaging service made for a class", 
                   repo: "https://github.com/TAwc/messaging-service",
                   type: "github"
                 },

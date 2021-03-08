@@ -55,7 +55,7 @@ const Background = () =>  {
                 </p>
                 <p className={styles.aboutMePar}>
                   &emsp; Years passed but I never forgot about this dream of making games. 
-                  In middle school I be came more interested in technology and created possibly the worst designed website for a school project — containing apoximently 
+                  In middle school I be came more interested in technology and created possibly the worst designed website for a school project — containing approximately 
                   5 lines of code using raw <b>html</b> and <b>css</b>. However, this is where everything started. 
                 </p>
 
