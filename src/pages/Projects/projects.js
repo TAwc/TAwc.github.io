@@ -11,8 +11,8 @@ const Projects = () =>  {
 
     return (
       <div>
-        <Past/>
         <Current/>
+        <Past/>
         <Future/>
         <Footer/>
       </div>

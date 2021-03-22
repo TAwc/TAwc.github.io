@@ -1,9 +1,9 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import styles from './current.module.css'
 //import {Link} from 'react-router-dom'
 
 import { Container, Row, Col } from 'reactstrap';
-
+import WinDim from '../../windowDemensions'
 
 import NA from '../../../images/N-A.PNG'
 
@@ -12,6 +12,22 @@ import NNimg from '../../../images/NN.PNG'
 
 
 const Future = () =>  {
+
+  const { height, width } = WinDim()
+  const [size, setSize] =  useState()
+
+
+  useEffect(() => {
+    if(width <= 992){
+      setSize("small") 
+    }
+    else{
+      setSize("large")    
+    }
+  }, [width]);
+
+  
+  
 
   const projects = [ 
     [ 
@@ -51,41 +67,60 @@ const Future = () =>  {
                             <div className={styles.projectContainer}>
                               <a href={project.link} className={styles.boxLink} target="_blank" rel="noopener noreferrer">
                                 <div className={styles.InternalBox}>
-
-                                  <div className={styles.projectHeaderContainer}>
-                                    <p className={styles.projectHeaderText}>
-                                      {project.name}
-                                    </p>
-                                  </div>
-
-                                  <div className = {styles.projectImageContainer}>
-                                    <img className={styles.projectImage} src={project.pic} alt="Project"/>
-                                  </div>
-
-                                  <div className = {styles.projectBodyContainer}>
-                                    <p className={styles.projectBodyText}>
-                                      {project.description}
-                                    </p>
-                                  </div>
-
-                                  <div className = {styles.projectTechContainer}>
+                                  <Row>
+                                    <Col lg={12}>
+                                      <div className={styles.projectHeaderContainer}>
+                                        <p className={styles.projectHeaderText}>
+                                          {project.name}
+                                        </p>
+                                      </div>
+                                    </Col>
+                                  </Row>
+                                  <Row>
                                     
-                                    <div className ={styles.techListContianer}>
-                                      <ul className = {styles.techList}> 
-                                      <p className={styles.usedTechText}>Using Techs:</p>
-                                        {
-                                          project.techs.map((tech)=>{
-                                            i++;
-                                            return(
-                                              <li className={styles.techItem} key={i}>{tech}</li>
+                                    <Col lg={4}>
+                                      <div className = {styles.projectImageContainer}>
+                                        <img className={styles.projectImage} src={project.pic} alt="Project"/>
+                                      </div>
+                                    </Col>
+
+                                    <Col lg={8}>
+                                      <div className = {styles.projectBodyContainer}>
+                                        <p className={styles.projectBodyText}>
+                                          {project.description}
+                                        </p>
+                                      </div>
+                                    </Col>
+                                  </Row>
+                                  <Row>
+                                    <Col lg={4}>
+                                      <div className = {styles.projectTechContainer}>
+                                        <p className={styles.usedTechText}>Using Techs:</p>
+                                      </div>
+                                    </Col>
+                                    <Col lg={8}>
+                                      <div className ={styles.techListContianer}>
+                                        <ul className = {styles.techList}> 
+                                          { 
+                                          size === "Small" ? (
+                                            project.techs.map((tech)=>{
+                                              i++;
+                                              return(
+                                                <li className={styles.techItem} key={i}>{tech}</li>
+                                              )
+                                            })
+                                            ) 
+                                            
+                                            :
+                                            (
+                                            <p>{project.techs.join(', ')}</p>
                                             )
-                                          })
-                                        }
+                                          }
 
-                                      </ul>
-                                    </div>
-                                    
-                                  </div>
+                                        </ul>
+                                      </div>
+                                    </Col>
+                                  </Row>
                                 </div>
                               </a>
                             </div>
