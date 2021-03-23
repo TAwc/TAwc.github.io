@@ -7,8 +7,6 @@ import WinDim from '../../windowDemensions'
 
 import NA from '../../../images/N-A.PNG'
 
-import NNimg from '../../../images/NN.PNG'
-
 
 
 const Future = () =>  {
@@ -32,7 +30,7 @@ const Future = () =>  {
   const projects = [ 
     [ 
     {name : "Vector Library", description : "A Vector Library a friend an I are building, aiming for performance", pic : NA, link : "https://github.com/trobol/dak_math#", techs : ["C++"]}, 
-    {name : "Neural Network Lib", description : "A long working project, a custom Neural  network Library to help me understand them better", pic : NNimg, link : "https://github.com/TAwc/NeuralNetworkLib", techs : ["python","Neural Networks", "Tensorflow", "Numpy"]}],
+    {name : "Chess Engine", description : "A chess engine using the Minimax Algorithm to determine the best moves", pic : NA, link : "", techs : ["Chess","Multi-threading","C++","Python"]}],
     ]
 
 

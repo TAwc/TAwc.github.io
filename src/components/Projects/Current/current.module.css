@@ -62,6 +62,13 @@
     transition: 0.1s;
 }
 
+.projectTechContainer {
+    margin-top: 30px;
+}
+
+.techListContianer{
+    margin-top: 20px;
+}
 
 .projectHeaderContainer{
     padding-top: 20px;
@@ -91,7 +98,7 @@
 
 .techList{
 
-    text-align: left;
+    text-align: center;
 }
 
 .usedTechText{
