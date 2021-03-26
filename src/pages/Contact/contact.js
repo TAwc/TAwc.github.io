@@ -11,7 +11,7 @@ const AboutMe = () =>  {
           <div className ={styles.sectionBody}>
             <div className={styles.center}>
               <p className={styles.email}>Email:</p>
-              <p className={styles.email}>AlexanderWatersAWC@gmail.com</p>
+              <p className={styles.email}>contact@alexwaters.dev</p>
             </div>
           </div>
           <Footer/>

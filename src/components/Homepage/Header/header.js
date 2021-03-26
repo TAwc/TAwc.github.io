@@ -50,7 +50,7 @@ const Header = () =>  {
 
     return (
       <span>
-          <div className = {styles.main} style={{backgroundImage: 'url("/website/Alex_pic.webp")'}}>
+          <div className = {styles.main} style={{backgroundImage: 'url("/Alex_pic.webp")'}}>
             <div className = {styles.center}>
               <Container fluid={true}>
                 
