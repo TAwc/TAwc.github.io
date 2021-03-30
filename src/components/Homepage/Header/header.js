@@ -43,7 +43,7 @@ const Header = () =>  {
                    
                     {text: "Instagram", img: InstagramImg, link: "https://www.instagram.com/alex_watermen/"},
                     {text: "linked In", img: linkedImg, link: "https://www.linkedin.com/in/alexanderwatersli/"},
-                    {text: "GitHub", img: githubImg, link: "https://github.com/TAwc"},
+                    {text: "GitHub", img: githubImg, link: "https://github.com/A-Waters"},
                   ]
 
 

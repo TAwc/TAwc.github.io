@@ -17,15 +17,15 @@ import Websiteimg from '../../../images/Website.PNG'
 const Past = () =>  {
 
     const projects = [ 
-                      [ {name : "Website", description : "This Project is the one you are currently Viewing", pic : Websiteimg, link : "https://github.com/TAwc/website", techs : ["react","react-router-dom","reactstrap"]}, 
-                        {name : "Chat Service", description : "A simple Chat system made to send messages between users using dedicated servers", pic : Chatimg, link : "https://github.com/TAwc/messaging-service", techs : ["Python","sockets","networking"]}],
-                      [ {name : "Campus-AStar-pathing", description : "A very simple node based path finding algorithm for my college campus", pic : ASimg, link : "https://github.com/TAwc/Campus-AStar-pathing", techs : ["Processing", "A*"]}, 
-                        {name : "Neural Network Lib", description : "A long working project, a custom neural network Library to help me understand them better", pic : NNimg, link : "https://github.com/TAwc/NeuralNetworkLib", techs : ["Python","Nerual Networks", "Tensorflow", "Numpy"]}],
-                      [ {name : "COVID-19 Visualizer", description : "A data set graphed created and used to watch the rise and fall of covid 19 cases", pic : Coronaimg, link : "https://github.com/TAwc/corona_visualization", techs : ["Python", "tkinter", "matplotlib"]}, 
-                        {name : "Snake-Game", description : "A implementation of the classic game snake, going to be used in latter projects for AI", pic : SnakeImg, link : "https://github.com/TAwc/Snake-Game", techs : ["Python","tkinter"]} ] 
+                      [ {name : "Website", description : "This Project is the one you are currently Viewing", pic : Websiteimg, link : "https://github.com/A-Waters/website", techs : ["react","react-router-dom","reactstrap"]}, 
+                        {name : "Chat Service", description : "A simple Chat system made to send messages between users using dedicated servers", pic : Chatimg, link : "https://github.com/A-Waters/messaging-service", techs : ["Python","sockets","networking"]}],
+                      [ {name : "Campus-AStar-pathing", description : "A very simple node based path finding algorithm for my college campus", pic : ASimg, link : "https://github.com/A-Waters/Campus-AStar-pathing", techs : ["Processing", "A*"]}, 
+                        {name : "Neural Network Lib", description : "A long working project, a custom neural network Library to help me understand them better", pic : NNimg, link : "https://github.com/A-Waters/NeuralNetworkLib", techs : ["Python","Nerual Networks", "Tensorflow", "Numpy"]}],
+                      [ {name : "COVID-19 Visualizer", description : "A data set graphed created and used to watch the rise and fall of covid 19 cases", pic : Coronaimg, link : "https://github.com/A-Waters/corona_visualization", techs : ["Python", "tkinter", "matplotlib"]}, 
+                        {name : "Snake-Game", description : "A implementation of the classic game snake, going to be used in latter projects for AI", pic : SnakeImg, link : "https://github.com/A-Waters/Snake-Game", techs : ["Python","tkinter"]} ] 
                     ]
 
-    let github = 'https://github.com/TAwc'
+    let github = 'https://github.com/A-Waters'
 
     let i = 0;
 

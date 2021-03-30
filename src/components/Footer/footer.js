@@ -12,7 +12,7 @@ const Footer = () =>  {
   const items = [
                 {text: "Instagram", link: "https://www.instagram.com/alex_watermen/"},
                 {text: "linkedIn", link: "https://www.linkedin.com/in/alexanderwatersli/"},
-                {text: "GitHub", link: "https://github.com/TAwc"},
+                {text: "GitHub", link: "https://github.com/A-Waters"},
               ]
 
     return (

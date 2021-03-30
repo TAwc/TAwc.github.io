@@ -13,19 +13,19 @@ const Projects = () =>  {
                 {
                   name: "messaging-service", 
                   desc: "A simple messaging service made for a class", 
-                  repo: "https://github.com/TAwc/messaging-service",
+                  repo: "https://github.com/A-Waters/messaging-service",
                   type: "github"
                 },
                 {
                   name: "Campus-AStar-pathing", 
                   desc: "A simple A* Node Based Pathing system for my college's campus.", 
-                  repo: "https://github.com/TAwc/Campus-AStar-pathing",
+                  repo: "https://github.com/A-Waters/Campus-AStar-pathing",
                   type: "github"
                 },
                 {
                   name: "Snake-Game", 
                   desc: 'A Simple Snake Game, I am going to use this in the future for a simple neural net, my first "finished" gui project', 
-                  repo: "https://github.com/TAwc/Snake-Game",
+                  repo: "https://github.com/A-Waters/Snake-Game",
                   type: "github"
                 },
   

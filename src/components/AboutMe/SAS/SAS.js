@@ -13,7 +13,7 @@ const SAS = () =>  {
                     [ {skill: "Teamwork ", why : "In a student ran project in highschool I had a team of ~seven members who I worked with for 4 years fixing the worlds toughest challenges.", 
                         example : "Clothsed-Out", link : "https://sites.google.com/newfairfieldschools.org/clothesed-out/home"},
                       {skill: "Self efficient", why : "Over the years, I have tought myself many things, that were never taught to me such as neural networks.",
-                          example : "Neural Network Lib", link : "https://github.com/TAwc/NeuralNetworkLib"}],
+                          example : "Neural Network Lib", link : "https://github.com/A-Waters/NeuralNetworkLib"}],
                     [ {skill: "Public Speaking ", why : "During a year long competitions my school would be in, I would commonly present our ideas and projects to many.", 
                         example : "DA11", link : "https://sites.google.com/newfairfieldschools.org/clothesed-out/home"}, 
                       {skill: "Communication ", why : "Working in a team for so long teaches you that you have to approach everyone differently.", 
@@ -21,7 +21,7 @@ const SAS = () =>  {
                     [ {skill: "Adaptability ", why : "In highschool, I worked in as an audio technician, and when nothing worked I had to create a solution and fast.", 
                         example : "Show Listing", link : "https://www.broadwayworld.com/connecticut/regional/THE-ADDAMS-FAMILY-SCHOOL-EDITION-New-Fairfield"}, 
                       {skill: "Trouble Shooting ", why : "Over the years, I have spent many Years between I.T. and programming, and it left quite a background of troubleshooting behind me.", 
-                        example : "Github", link : "https://github.com/TAwc"}],
+                        example : "Github", link : "https://github.com/A-Waters"}],
                   ] 
 
     let i = 0;
