@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/static/css/main.597a8c72.chunk.css",
-    "main.js": "/static/js/main.9a5b8a78.chunk.js",
-    "main.js.map": "/static/js/main.9a5b8a78.chunk.js.map",
+    "main.css": "/static/css/main.59d62d02.chunk.css",
+    "main.js": "/static/js/main.79adea23.chunk.js",
+    "main.js.map": "/static/js/main.79adea23.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c9a36f42.js",
     "runtime-main.js.map": "/static/js/runtime-main.c9a36f42.js.map",
     "static/css/2.c1fb602b.chunk.css": "/static/css/2.c1fb602b.chunk.css",
-    "static/js/2.4aa2f405.chunk.js": "/static/js/2.4aa2f405.chunk.js",
-    "static/js/2.4aa2f405.chunk.js.map": "/static/js/2.4aa2f405.chunk.js.map",
+    "static/js/2.d879b525.chunk.js": "/static/js/2.d879b525.chunk.js",
+    "static/js/2.d879b525.chunk.js.map": "/static/js/2.d879b525.chunk.js.map",
     "index.html": "/index.html",
-    "precache-manifest.07c79baa2c4a728e9a5b3359e9208a37.js": "/precache-manifest.07c79baa2c4a728e9a5b3359e9208a37.js",
+    "precache-manifest.dbbe440893e3b11d90c9eb6de7ce2552.js": "/precache-manifest.dbbe440893e3b11d90c9eb6de7ce2552.js",
     "service-worker.js": "/service-worker.js",
     "static/css/2.c1fb602b.chunk.css.map": "/static/css/2.c1fb602b.chunk.css.map",
-    "static/css/main.597a8c72.chunk.css.map": "/static/css/main.597a8c72.chunk.css.map",
-    "static/js/2.4aa2f405.chunk.js.LICENSE.txt": "/static/js/2.4aa2f405.chunk.js.LICENSE.txt",
+    "static/css/main.59d62d02.chunk.css.map": "/static/css/main.59d62d02.chunk.css.map",
+    "static/js/2.d879b525.chunk.js.LICENSE.txt": "/static/js/2.d879b525.chunk.js.LICENSE.txt",
     "static/media/3-30-21.pdf": "/static/media/3-30-21.3d8494dc.pdf",
     "static/media/A-Star..PNG": "/static/media/A-Star..063b0ffa.PNG",
     "static/media/Chat.PNG": "/static/media/Chat.f313f9de.PNG",
+    "static/media/ChessEngine.png": "/static/media/ChessEngine.9ba2494c.png",
     "static/media/Corona.PNG": "/static/media/Corona.2bdd175d.PNG",
     "static/media/Headshot 5-4-2020.JPG": "/static/media/Headshot 5-4-2020.4cc85930.JPG",
     "static/media/Headshot(edit) 5-4-2020.jpg": "/static/media/Headshot(edit) 5-4-2020.27083a2a.jpg",
@@ -32,8 +33,8 @@
   "entrypoints": [
     "static/js/runtime-main.c9a36f42.js",
     "static/css/2.c1fb602b.chunk.css",
-    "static/js/2.4aa2f405.chunk.js",
-    "static/css/main.597a8c72.chunk.css",
-    "static/js/main.9a5b8a78.chunk.js"
+    "static/js/2.d879b525.chunk.js",
+    "static/css/main.59d62d02.chunk.css",
+    "static/js/main.79adea23.chunk.js"
   ]
 }
