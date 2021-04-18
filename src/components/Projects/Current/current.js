@@ -59,7 +59,7 @@ const Future = () =>  {
                 return (
                   <Row key={i}>
                     {
-                      projectset.map((project) =>{
+                      projectset.map((project) => {
                         return(
                           <Col lg={6} key={project.name}>
                             <div className={styles.projectContainer}>
