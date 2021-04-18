@@ -6,6 +6,8 @@ import { Container, Row, Col } from 'reactstrap';
 import WinDim from '../../windowDemensions'
 
 import NA from '../../../images/N-A.PNG'
+import Chess from '../../../images/ChessEngine.png'
+
 
 
 
@@ -30,7 +32,7 @@ const Future = () =>  {
   const projects = [ 
     [ 
     {name : "Vector Library", description : "A Vector Library a friend an I are building, aiming for performance", pic : NA, link : "https://github.com/trobol/dak_math#", techs : ["C++"]}, 
-    {name : "Chess Engine", description : "A chess engine using the Minimax Algorithm to determine the best moves", pic : NA, link : "https://github.com/A-Waters/ChessEngine", techs : ["Chess","Multi-threading","C++","Python"]}],
+    {name : "Chess Engine", description : "A chess engine using the bitboards", pic : Chess, link : "https://github.com/A-Waters/bitboard-chess", techs : ["Chess","C"]}],
     ]
 
 
