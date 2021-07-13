@@ -7,8 +7,8 @@ import Blog_Center from '../../components/Blogs/Blog/Blog_Center.js';
 const Blog = () =>  {
     return (
       <div>
-        <Footer/>
         <Blog_Center/>
+        <Footer/>
       </div>
     );
 }

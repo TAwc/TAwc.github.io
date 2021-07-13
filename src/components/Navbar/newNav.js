@@ -60,7 +60,9 @@ const Example = (props) => {
     const page_values = [{text : "Home", path: "/"},
                         {text : "About Me", path: "/aboutme"},
                         {text : "Projects", path: "/projects"},
-                        {text : "Resume", path: "/resume"},];
+                        {text : "Blog", path: "/blog"},
+                        {text : "Resume", path: "/resume"},
+                        ];
 
     return (
         <span>
