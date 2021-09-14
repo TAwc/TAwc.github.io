@@ -57,12 +57,13 @@ const Example = (props) => {
     });}
 
 
-    const page_values = [{text : "Home", path: "/"},
-                        {text : "About Me", path: "/aboutme"},
-                        {text : "Projects", path: "/projects"},
-                        {text : "Blog", path: "/blog"},
-                        {text : "Resume", path: "/resume"},
-                        ];
+    const page_values = [
+                    {text : "Home", path: "/"},
+                    {text : "About Me", path: "/aboutme"},
+                    {text : "Projects", path: "/projects"},
+                    {text : "Blog", path: "/blog"},
+                    {text : "Resume", path: "/resume"},
+                    ];
 
     return (
         <span>
@@ -74,7 +75,7 @@ const Example = (props) => {
 
                 //AT TOP AND HOME 
                 (
-                    <div className={styles.container}>
+                    <div className={styles.container + ' navbar-expand-sm' }>
                         <Navbar className={styles.navbarTop} color="dark" dark expand="md">
                             <NavbarBrand className={styles.brand} href={process.env.PUBLIC_URL}>Alexander Waters</NavbarBrand>
                             <NavbarToggler onClick={toggle} />
