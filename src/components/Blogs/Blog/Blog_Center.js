@@ -11,9 +11,8 @@ import style from './Blog_Center.module.css'
 const Blog_Center = () =>  {
 
   const posts = [
-    {title: "Creating a post creation system in pure react", description:'after quite a long time, i decided it was finally time to do something about it', link:'1', date:'12-19-2021', image_alt:'filler'},
-    {title: "Creating a new biomass", description:'creating life as we know it', link:'1', date:'12-21-2021', image_alt:'filler'}, 
-    {title: "Before the beginning there was nothing", description:'fuck this isnt working', link:'2', date:'12-24-2021', image_alt:'filler'},
+    {title: "Detecting Invasive plants using machine learning with image recognition and GPT-3", description:'A capstone project', link:'CapstonePost1', date:'9-16-2021', image_alt:'filler'},
+    {title: "Creating a post creation system in pure react", description:'after quite a long time, i decided it was finally time to do something about it', link:'Post1', date:'2-19-2021', image_alt:'filler'},
   ]
 
     return (

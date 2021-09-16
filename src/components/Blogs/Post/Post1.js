@@ -2,13 +2,10 @@ import React from 'react';
 
 import style from './post.module.css'
 
-const Post1 = () =>  {
+const Post = () =>  {
   return (
     <div>
       <div className={style.container}>
-
-
-
 
         <div className={style.content}>
           <div className={style.title}>
@@ -58,4 +55,4 @@ const Post1 = () =>  {
   );
 }   
 
-export default Post1;
+export default Post;

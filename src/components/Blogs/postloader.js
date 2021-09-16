@@ -9,7 +9,7 @@ function Postloader() {
     let Post = null
     
     function update(id_post){
-      Post = React.lazy(() => import('./Post/Post'+id_post))
+      Post = React.lazy(() => import('./Post/'+id_post))
     }
   
     return (  
