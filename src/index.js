@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import {BrowserRouter,  Redirect,  Switch, Route}  from 'react-router-dom';
+import {HashRouter,  Redirect,  Switch, Route}  from 'react-router-dom';
 
 
 
@@ -26,7 +26,7 @@ import icon from './images/Headshot(edit) 5-4-2020.jpg'
 ReactDOM.render(
   <React.StrictMode>
     <link rel="icon" href={icon}></link>
-    <BrowserRouter>
+    <HashRouter>
       <Navbar/>
       <Switch>
         <Route exact path = {process.env.PUBLIC_URL + "/"} component = {Homepage}/>
@@ -38,7 +38,7 @@ ReactDOM.render(
         <Route path = {process.env.PUBLIC_URL + "/contact"} component = {Contact}/>
         <Redirect to= {process.env.PUBLIC_URL + "/"} /> 
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
