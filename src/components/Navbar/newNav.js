@@ -9,7 +9,7 @@ import {
   NavItem,
   NavLink,
 } from 'reactstrap';
-import {Link, useLocation} from 'react-router-dom'
+import {Link} from 'react-router-dom'
 import addEffect from '../useEvent'
 
 

@@ -7,13 +7,13 @@ const Post = () =>  {
 
   // to be passed into share buttons
   const title = "Detecting Invasive plants using machine learning with image recognition and GPT-3"
-  const share_URL = process.env.PUBLIC_URL
+  /* const share_URL = process.env.PUBLIC_URL
   const email_body = "Check out this cool project by Alexander Waters!"
   const facebook_quote = "Check out this cool project by Alexander Waters!"
   const hashtags = "#ComputerScience"
   const source = "Alexander Waters Website"
   const summary = "Creating a Invasive Plant Detection system using machine learning and GPT-3"
-
+  */
 
   return (
     <div>
@@ -27,7 +27,7 @@ const Post = () =>  {
 
           <div className={style.para}>
             In the fall of 2021, I was tasked with creating an image recognition system for invasive plants.
-             This isn't the most interesting project, the technology behind it is cutting edge. While only 
+             While this isn't the most interesting project, the technology behind it is cutting edge. While only 
              being an undergrad who is mostly self-taught in the area of machine learning via mostly online 
              blog posts and videos, it's going to be an interesting journey with what I assume are many bumps in the road.
           </div>
