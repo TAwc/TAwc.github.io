@@ -1,1 +1,0 @@
-{"version":3,"sources":["components/Blogs/Post/Post2.js"],"names":["Post"],"mappings":"mGAAA,2BAUeA,UARF,WACX,OACE,6BACE","file":"static/js/2.9f5128bd.chunk.js","sourcesContent":["import React from 'react';\r\n\r\nconst Post = () =>  {\r\n  return (\r\n    <div>\r\n      <p>I AM POST 2</p>\r\n    </div>\r\n  );\r\n}   \r\n\r\nexport default Post;"],"sourceRoot":""}
