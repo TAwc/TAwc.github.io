@@ -7,7 +7,7 @@ import { Container, Row, Col } from 'reactstrap';
 
 const Techs = () =>  {
 
-  const github = "https://github.com/TAwc"
+  const github = "https://github.com/A-Waters"
 
   let i=0;
   const techs = [
