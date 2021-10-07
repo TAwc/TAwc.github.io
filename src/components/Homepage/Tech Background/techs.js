@@ -11,7 +11,7 @@ const Techs = () =>  {
 
   let i=0;
   const techs = [
-                  {label : "Languages", list : ["Python", "C++", "Java", "Javascript","Html","Css","C#","Processing","Bash"]},
+                  {label : "Languages", list : ["Python", "C++", "Javascript","Html","Swift","Clojure","GoLang","Processing","Bash"]},
                   {label : "Frameworks", list : ["React", "Electron", "Django"]},
                   {label : "Concepts", list : ["Neural networks", "path-finding", "Discord bots", "Unity programming",
                                                 "Data structures","Web scraping (legally)","Github pages (this)","Linux/unix", "Multithreading", "Asynchronous"]},
