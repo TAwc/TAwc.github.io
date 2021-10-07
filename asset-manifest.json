@@ -9,8 +9,8 @@
     "static/js/2.4f56bd1b.chunk.js": "/static/js/2.4f56bd1b.chunk.js",
     "static/js/2.4f56bd1b.chunk.js.map": "/static/js/2.4f56bd1b.chunk.js.map",
     "main.css": "/static/css/main.1a2c3571.chunk.css",
-    "main.js": "/static/js/main.beb5cf17.chunk.js",
-    "main.js.map": "/static/js/main.beb5cf17.chunk.js.map",
+    "main.js": "/static/js/main.d779c49f.chunk.js",
+    "main.js.map": "/static/js/main.d779c49f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.3eaf3314.js",
     "runtime-main.js.map": "/static/js/runtime-main.3eaf3314.js.map",
     "static/css/5.366c97c1.chunk.css": "/static/css/5.366c97c1.chunk.css",
@@ -26,7 +26,7 @@
     "static/css/6.ad6ae916.chunk.css.map": "/static/css/6.ad6ae916.chunk.css.map",
     "static/css/main.1a2c3571.chunk.css.map": "/static/css/main.1a2c3571.chunk.css.map",
     "static/js/5.a4d66c31.chunk.js.LICENSE.txt": "/static/js/5.a4d66c31.chunk.js.LICENSE.txt",
-    "static/media/3-30-21.a261048d.pdf": "/static/media/3-30-21.a261048d.pdf",
+    "static/media/10-7-21.25ae6521.pdf": "/static/media/10-7-21.25ae6521.pdf",
     "static/media/A-Star..95c0ef8e.PNG": "/static/media/A-Star..95c0ef8e.PNG",
     "static/media/Chat.76863485.PNG": "/static/media/Chat.76863485.PNG",
     "static/media/ChessEngine.5e5d9efe.png": "/static/media/ChessEngine.5e5d9efe.png",
@@ -54,6 +54,6 @@
     "static/css/5.366c97c1.chunk.css",
     "static/js/5.a4d66c31.chunk.js",
     "static/css/main.1a2c3571.chunk.css",
-    "static/js/main.beb5cf17.chunk.js"
+    "static/js/main.d779c49f.chunk.js"
   ]
 }
