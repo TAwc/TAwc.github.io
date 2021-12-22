@@ -11,21 +11,21 @@ const Projects = () =>  {
   
     const projetcs = [
                 {
-                  name: "messaging-service", 
+                  name: "Messaging Service", 
                   desc: "A simple messaging service made for a class", 
                   repo: "https://github.com/A-Waters/messaging-service",
                   type: "github"
                 },
                 {
-                  name: "Campus-AStar-pathing", 
-                  desc: "A simple A* Node Based Pathing system for my college's campus.", 
-                  repo: "https://github.com/A-Waters/Campus-AStar-pathing",
+                  name: "Full Stack Twitter Clone", 
+                  desc: "A Program Built in MySQL, React, and Express.js", 
+                  repo: "https://github.com/A-Waters/twitter_database",
                   type: "github"
                 },
                 {
-                  name: "Snake-Game", 
-                  desc: 'A Simple Snake Game, I am going to use this in the future for a simple neural net, my first "finished" gui project', 
-                  repo: "https://github.com/A-Waters/Snake-Game",
+                  name: "Chess Engine", 
+                  desc: 'A Simple Chess engine using bitboard', 
+                  repo: "https://github.com/A-Waters/bitboard-chess",
                   type: "github"
                 },
   

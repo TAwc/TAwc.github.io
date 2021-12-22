@@ -49,14 +49,14 @@ const Post = () =>  {
 
           <div className={style.para}>
             Here in the image above, we can send an “ID” (which we will later learn is the file name) to the child component. 
-            The piece of code that brings everything together.
+            The Next bit of code brings everything together.
           </div>
 
           <img src={PostloaderPNG} alt={"PostLoader Component"} className={style.header_image}/>
 
 
           <div className={style.para}>
-            In the post loader component we can see on the component render to use react.lazy to then take the file we have at 
+            In the post loader component we can use the component render call a function to trigger a react.lazy to then take the file we have at 
             “./Post/ ...” + whatever file name we pass in and store the file data to a variable called “Post”. 
             Post is then evaluated and rendered out to the screen.
           </div>
