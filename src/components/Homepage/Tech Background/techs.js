@@ -11,16 +11,14 @@ const Techs = () =>  {
 
   let i=0;
   const techs = [
-                  {label : "Languages", list : ["Python", "C++", "Java", "Javascript","Html","Css","C#","Processing","Bash"]},
-                  {label : "Frameworks", list : ["React", "Electron", "Django"]},
-                  {label : "Concepts", list : ["Neural networks", "path-finding", "Discord bots", "Unity programming",
-                                                "Data structures","Web scraping (legally)","Github pages (this)","Linux/unix", "Multithreading", "Asynchronous"]},
+                  {label : "Languages", list : ["Python", "C++", "Javascript","Bash", "ASM"]},
+                  {label : "Technologies", list : ["React", "Electron", "Django","Git", "Linux/unix"]},
+                  {label : "Concepts", list : ["Machine Learning", "Reverse engineering", "Data structures", "Multithreading", "Asynchronous"]},
                   {label : "Open source", list : [
                     <a className={styles.inlineLink} href={github}>github</a>,
                     <a className={styles.inlineLink} href={"https://github.com/CSI-280/playdogplay"}>CSI-280/playdogplay</a>,
                     <a className={styles.inlineLink} href={"https://github.com/CSI-280/MusicGames"}>CSI-280/MusicGames</a>]
                   },
-                  {label : "Python Libs", list : ["pandas", "numpy", "tkinter", "tensorflow", "python networking", "matplotlib"]},
                 ]
 
 

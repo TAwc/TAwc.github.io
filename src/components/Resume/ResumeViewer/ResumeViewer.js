@@ -4,7 +4,7 @@ import WinDim from '../../windowDemensions'
 
 import styles from "./ResumeViewer.module.css"
 
-import resumePDF from '../../../images/10-7-21.pdf'
+import resumePDF from '../../../images/12-22-21.pdf'
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
