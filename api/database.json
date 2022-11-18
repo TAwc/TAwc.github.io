@@ -1,0 +1,11 @@
+{
+    "items": [
+      {
+        "id": 1,
+        "name": "Blender",
+        "link": "https://www.amazon.com/gp/product/B004XK4N9C/ref=ox_sc_act_title_1?smid=ATVPDKIKX0DER&psc=1",
+        "rating": 5,
+        "taken": false
+      }
+    ]
+}
